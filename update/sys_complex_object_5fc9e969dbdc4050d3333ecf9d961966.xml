@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>Notification</name>
+        <namespace>LinodeAPI450</namespace>
+        <scope_name>6b87c129db10cc10af7b596e5e96199d</scope_name>
+        <serialized_content>{"LinodeAPI450:Notification":{"severity":"String","severity.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"minor\":\"minor\",\"major\":\"major\",\"critical\":\"critical\"}}"},"until":"String","until.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"label":"String","label.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"body":"String","body.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"migration_imminent\":\"migration_imminent\",\"outage\":\"outage\",\"migration_pending\":\"migration_pending\",\"reboot_scheduled\":\"reboot_scheduled\",\"ticket_important\":\"ticket_important\",\"migration_scheduled\":\"migration_scheduled\",\"ticket_abuse\":\"ticket_abuse\",\"maintenance\":\"maintenance\",\"payment_due\":\"payment_due\",\"notice\":\"notice\",\"promotion\":\"promotion\"}}"},"when":"String","when.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"entity":{"id":"Integer","label":"String","type":"String","url":"String"},"entity.$type_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"entity.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"}}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-04 20:47:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5fc9e969dbdc4050d3333ecf9d961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name>sys_complex_object_5fc9e969dbdc4050d3333ecf9d961966</sys_update_name>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-04 20:47:18</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

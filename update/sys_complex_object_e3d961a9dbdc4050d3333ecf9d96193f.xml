@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>requestapplicationjson1637468014</name>
+        <namespace>LinodeAPI450</namespace>
+        <scope_name>6b87c129db10cc10af7b596e5e96199d</scope_name>
+        <serialized_content>{"LinodeAPI450:requestapplicationjson1637468014":{"configs":[{"configs":{"check_interval":"Integer","ssl_key":"String","check_path":"String","stickiness":"String","stickiness.$field_facets":{"SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"none\":\"none\",\"table\":\"table\",\"http_cookie\":\"http_cookie\"}}"},"check_attempts":"Integer","check":"String","check.$field_facets":{"SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"http_body\":\"http_body\",\"http\":\"http\",\"connection\":\"connection\",\"none\":\"none\"}}"},"check_body":"String","nodebalancer_id":"Integer","nodebalancer_id.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"protocol":"String","protocol.$field_facets":{"SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"tcp\":\"tcp\",\"http\":\"http\",\"https\":\"https\"}}"},"nodes_status":{"up":"Integer","up.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"down":"Integer","down.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"}},"nodes_status.$type_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"nodes_status.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"ssl_fingerprint":"String","ssl_fingerprint.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"port":"Integer","cipher_suite":"String","cipher_suite.$field_facets":{"SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"legacy\":\"legacy\",\"recommended\":\"recommended\"}}"},"ssl_commonname":"String","ssl_commonname.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"check_timeout":"Integer","id":"Integer","id.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"check_passive":"Boolean","algorithm":"String","algorithm.$field_facets":{"SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"leastconn\":\"leastconn\",\"roundrobin\":\"roundrobin\",\"source\":\"source\"}}"},"ssl_cert":"String"}}]}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-04 20:47:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e3d961a9dbdc4050d3333ecf9d96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>requestapplicationjson1637468014</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name>sys_complex_object_e3d961a9dbdc4050d3333ecf9d96193f</sys_update_name>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-04 20:47:35</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

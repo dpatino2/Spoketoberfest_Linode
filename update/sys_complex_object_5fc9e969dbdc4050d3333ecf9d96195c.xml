@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>ManagedService</name>
+        <namespace>LinodeAPI450</namespace>
+        <scope_name>6b87c129db10cc10af7b596e5e96199d</scope_name>
+        <serialized_content>{"LinodeAPI450:ManagedService":{"address":"String","notes":"String","credentials":["Integer"],"created":"String","created.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"consultation_group":"String","consultation_group.$field_facets":{"SimpleMapFacet":"{\"max_length\":\"50\"}"},"label":"String","label.$field_facets":{"SimpleMapFacet":"{\"max_length\":\"64\"}"},"body":"String","body.$field_facets":{"SimpleMapFacet":"{\"max_length\":\"100\"}"},"timeout":"Integer","service_type":"String","service_type.$field_facets":{"SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"tcp\":\"tcp\",\"url\":\"url\"}}"},"id":"Integer","id.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"region":"String","updated":"String","updated.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"read_only\":\"true\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"problem\":\"problem\",\"pending\":\"pending\",\"disabled\":\"disabled\",\"ok\":\"ok\"}}"}}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-04 20:47:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5fc9e969dbdc4050d3333ecf9d96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ManagedService</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name>sys_complex_object_5fc9e969dbdc4050d3333ecf9d96195c</sys_update_name>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-04 20:47:18</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
