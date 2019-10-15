@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Given a VM provisioned by Create VM, start it up</description>
+        <ih_action>false</ih_action>
+        <internal_name>start_vm</internal_name>
+        <label_cache>[{"name":"{{action.linodeid}}","label":"action➛Linode ID","type":"action","ref":""},{"name":"{{step[2894ee2c-7274-47dd-8196-1afa4e24784b].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Start VM</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:46:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>89fb96b8db200410d3333ecf9d9619ff</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Start VM</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_89fb96b8db200410d3333ecf9d9619ff</sys_update_name>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:58:06</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=89fb96b8db200410d3333ecf9d9619ff"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=89fb96b8db200410d3333ecf9d9619ff^sys_idNOT INee2e52bcdb200410d3333ecf9d961976"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Start VM">89fb96b8db200410d3333ecf9d9619ff</action>
+        <cid>2894ee2c-7274-47dd-8196-1afa4e24784b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ee2e52bcdb200410d3333ecf9d961976</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:58:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ee2e52bcdb200410d3333ecf9d961976"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>322e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>8dea29e9dbdc4050d3333ecf9d961986</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>362e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>3e2e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>722e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>fec9e169dbdc4050d3333ecf9d961920</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>7a2e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>https://api.linode.com/v4/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>7e2e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>b22e52bcdb200410d3333ecf9d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>{"linodeid":{"name":"linodeId","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"format":"int32","glideType":"integer","deprecated":false,"name":"linodeId6783241292","type":"integer"}},"requestapplicationjson3655659429":{"complexObjectParameter":{"id":"","label":"requestapplicationjson3655659429","name":"requestapplicationjson3655659429","type":"object","type_label":"Object","order":0,"extended":false,"mandatory":false,"readonly":false,"maxsize":0,"children":[{"id":"","label":"config_id","name":"config_id","type":"integer","type_label":"Integer","order":0,"extended":false,"mandatory":false,"readonly":false,"maxsize":0,"children":[],"data_structure":"","reference":"","reference_display":"","ref_qual":"","choiceOption":"","table":"","columnName":"","defaultValue":"","use_dependent":false,"dependent_on":"","internal_link":"","show_ref_finder":false,"local":false,"attributes":{},"sys_class_name":"","fieldFacetMap":{},"uiDisplayType":"integer","uiDisplayTypeLabel":"Integer","value":"","scriptActive":false,"script":{},"display_value":""}],"data_structure":"","reference":"","reference_display":"","ref_qual":"","choiceOption":"","table":"","columnName":"","defaultValue":"","use_dependent":false,"dependent_on":"","internal_link":"","show_ref_finder":false,"local":false,"attributes":{},"sys_class_name":"","uiDisplayType":"object","uiDisplayTypeLabel":"Object"},"glideType":"object","complexObjectTypeNamespace":"LinodeAPI450","complexObjectTypeName":"requestapplicationjson3655659429","deprecated":false,"name":"requestapplicationjson3655659429","type":"object"}}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>b62e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>ba2e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>f22e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:58:06</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>f62e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>11d96d69dbdc4050d3333ecf9d961974</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>fe2e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ee2e52bcdb200410d3333ecf9d961976"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_operation</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>722e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_source</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>fa2e52bcdb200410d3333ecf9d961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>7a2e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>b62e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>build_request</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>be2e52bcdb200410d3333ecf9d961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>f22e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>ba2e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>322e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:58:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Accept","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Bearer {{step[2894ee2c-7274-47dd-8196-1afa4e24784b].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>f62e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>3e2e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>7e2e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/linode/instances/{{action.linodeid}}/boot</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_metadata</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>fe2e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>362e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ee2e52bcdb200410d3333ecf9d961976^sys_idNOT INb62e52bcdb200410d3333ecf9d96197e"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">ee2e52bcdb200410d3333ecf9d961976</model>
+        <model_id>ee2e52bcdb200410d3333ecf9d961976</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ee2e52bcdb200410d3333ecf9d961976</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b62e52bcdb200410d3333ecf9d96197e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:58:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=89fb96b8db200410d3333ecf9d9619ff^sys_idNOT INea2e527cdb200410d3333ecf9d96192a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>linodeid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Linode ID</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Start VM">89fb96b8db200410d3333ecf9d9619ff</model>
+        <model_id>89fb96b8db200410d3333ecf9d9619ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_89fb96b8db200410d3333ecf9d9619ff</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea2e527cdb200410d3333ecf9d96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=89fb96b8db200410d3333ecf9d9619ff^sys_idNOT INee2e52bcdb200410d3333ecf9d961976"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Start VM">89fb96b8db200410d3333ecf9d9619ff</action>
+        <cid>2894ee2c-7274-47dd-8196-1afa4e24784b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ee2e52bcdb200410d3333ecf9d961976</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:58:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ee2e52bcdb200410d3333ecf9d961976"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>322e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>8dea29e9dbdc4050d3333ecf9d961986</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>362e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>3e2e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>722e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>fec9e169dbdc4050d3333ecf9d961920</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>7a2e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>https://api.linode.com/v4/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>7e2e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>b22e52bcdb200410d3333ecf9d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>{"linodeid":{"name":"linodeId","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"format":"int32","glideType":"integer","deprecated":false,"name":"linodeId6783241292","type":"integer"}},"requestapplicationjson3655659429":{"complexObjectParameter":{"id":"","label":"requestapplicationjson3655659429","name":"requestapplicationjson3655659429","type":"object","type_label":"Object","order":0,"extended":false,"mandatory":false,"readonly":false,"maxsize":0,"children":[{"id":"","label":"config_id","name":"config_id","type":"integer","type_label":"Integer","order":0,"extended":false,"mandatory":false,"readonly":false,"maxsize":0,"children":[],"data_structure":"","reference":"","reference_display":"","ref_qual":"","choiceOption":"","table":"","columnName":"","defaultValue":"","use_dependent":false,"dependent_on":"","internal_link":"","show_ref_finder":false,"local":false,"attributes":{},"sys_class_name":"","fieldFacetMap":{},"uiDisplayType":"integer","uiDisplayTypeLabel":"Integer","value":"","scriptActive":false,"script":{},"display_value":""}],"data_structure":"","reference":"","reference_display":"","ref_qual":"","choiceOption":"","table":"","columnName":"","defaultValue":"","use_dependent":false,"dependent_on":"","internal_link":"","show_ref_finder":false,"local":false,"attributes":{},"sys_class_name":"","uiDisplayType":"object","uiDisplayTypeLabel":"Object"},"glideType":"object","complexObjectTypeNamespace":"LinodeAPI450","complexObjectTypeName":"requestapplicationjson3655659429","deprecated":false,"name":"requestapplicationjson3655659429","type":"object"}}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>b62e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>ba2e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>f22e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:58:06</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>f62e52bcdb200410d3333ecf9d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>11d96d69dbdc4050d3333ecf9d961974</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ee2e52bcdb200410d3333ecf9d961976</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>fe2e52bcdb200410d3333ecf9d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ee2e52bcdb200410d3333ecf9d961976"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_operation</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>722e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_source</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>fa2e52bcdb200410d3333ecf9d961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>7a2e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>b62e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>build_request</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>be2e52bcdb200410d3333ecf9d961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>f22e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>ba2e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>322e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:58:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Accept","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Bearer {{step[2894ee2c-7274-47dd-8196-1afa4e24784b].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>f62e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>3e2e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>7e2e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/linode/instances/{{action.linodeid}}/boot</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_metadata</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>fe2e52bcdb200410d3333ecf9d961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>ee2e52bcdb200410d3333ecf9d961976</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_id>362e52bcdb200410d3333ecf9d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ee2e52bcdb200410d3333ecf9d961976^sys_idNOT INb62e52bcdb200410d3333ecf9d96197e"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">ee2e52bcdb200410d3333ecf9d961976</model>
+        <model_id>ee2e52bcdb200410d3333ecf9d961976</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ee2e52bcdb200410d3333ecf9d961976</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b62e52bcdb200410d3333ecf9d96197e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:58:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_89fb96b8db200410d3333ecf9d9619ff^sys_idNOT INe62e52bcdb200410d3333ecf9d961975"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>linodeid</element>
+        <help/>
+        <hint/>
+        <label>Linode ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_89fb96b8db200410d3333ecf9d9619ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-15 02:56:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e62e52bcdb200410d3333ecf9d961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Linode ID</sys_name>
+        <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_89fb96b8db200410d3333ecf9d9619ff_linodeid_en</sys_update_name>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-15 02:56:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
