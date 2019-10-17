@@ -12,7 +12,7 @@
         <description/>
         <ih_action>false</ih_action>
         <internal_name>shutdown_vm</internal_name>
-        <label_cache>[{"name":"{{action.linodeid}}","label":"action➛id","type":"action","ref":""},{"name":"{{step[1a3b0e53-9ad8-4830-8665-fad11fca5bc0].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[1a3b0e53-9ad8-4830-8665-fad11fca5bc0].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[1a3b0e53-9ad8-4830-8665-fad11fca5bc0].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[ef28017b-0eb6-4573-9a7c-7051bb1e78b2].result}}","label":"step➛Determine success➛result","type":"step","ref":""},{"name":"{{step[ef28017b-0eb6-4573-9a7c-7051bb1e78b2].message}}","label":"step➛Determine success➛message","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.linodeid}}","label":"action➛Linode ID","type":"action","ref":""},{"name":"{{step[1a3b0e53-9ad8-4830-8665-fad11fca5bc0].sn_auth_token}}","label":"step➛Shut Down VM via REST➛Credential Value","type":"step","ref":""},{"name":"{{step[1a3b0e53-9ad8-4830-8665-fad11fca5bc0].response_body}}","label":"step➛Shut Down VM via REST➛Response Body","type":"step","ref":""},{"name":"{{step[1a3b0e53-9ad8-4830-8665-fad11fca5bc0].status_code}}","label":"step➛Shut Down VM via REST➛Status Code","type":"step","ref":""},{"name":"{{step[ef28017b-0eb6-4573-9a7c-7051bb1e78b2].result}}","label":"step➛Determine success➛result","type":"step","ref":""},{"name":"{{step[ef28017b-0eb6-4573-9a7c-7051bb1e78b2].message}}","label":"step➛Determine success➛message","type":"step","ref":""}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Shutdown VM</name>
@@ -25,7 +25,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d0608825dba48410d3333ecf9d9619b9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Shutdown VM</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d0608825dba48410d3333ecf9d9619b9</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-17 00:56:19</sys_updated_on>
+        <sys_updated_on>2019-10-17 02:58:16</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -541,7 +541,7 @@
         <icon/>
         <inputs/>
         <inputs/>
-        <label>REST step</label>
+        <label>Shut Down VM via REST</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -551,7 +551,7 @@
         <sys_created_on>2019-10-16 23:53:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b187042ddba48410d3333ecf9d9619f7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -559,7 +559,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-16 23:53:38</sys_updated_on>
+        <sys_updated_on>2019-10-17 02:58:15</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b187042ddba48410d3333ecf9d9619f7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -927,7 +927,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">b187042ddba48410d3333ecf9d9619f7</model>
+        <model display_value="Shut Down VM via REST">b187042ddba48410d3333ecf9d9619f7</model>
         <model_id>b187042ddba48410d3333ecf9d9619f7</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_b187042ddba48410d3333ecf9d9619f7</name>
@@ -1008,7 +1008,7 @@
         <help/>
         <hint/>
         <internal_type display_value="Integer">integer</internal_type>
-        <label>id</label>
+        <label>Linode ID</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <model display_value="Shutdown VM">d0608825dba48410d3333ecf9d9619b9</model>
@@ -1035,7 +1035,7 @@
         <sys_created_on>2019-10-16 23:53:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3d87c4e9dba48410d3333ecf9d961994</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1043,7 +1043,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-16 23:53:38</sys_updated_on>
+        <sys_updated_on>2019-10-17 02:58:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1094,7 +1094,7 @@
         <hint/>
         <internal_link/>
         <internal_type display_value="">boolean</internal_type>
-        <label>shutdown</label>
+        <label>Succeeded</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <model display_value="Shutdown VM">d0608825dba48410d3333ecf9d9619b9</model>
@@ -1121,7 +1121,7 @@
         <sys_created_on>2019-10-16 23:53:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0e87442ddba48410d3333ecf9d961931</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1129,7 +1129,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-16 23:53:39</sys_updated_on>
+        <sys_updated_on>2019-10-17 02:58:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1179,7 +1179,7 @@
         <hint/>
         <internal_link/>
         <internal_type display_value="String">string</internal_type>
-        <label>message</label>
+        <label>Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
         <model display_value="Shutdown VM">d0608825dba48410d3333ecf9d9619b9</model>
@@ -1206,7 +1206,7 @@
         <sys_created_on>2019-10-16 23:53:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c687442ddba48410d3333ecf9d96192c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1214,7 +1214,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-16 23:53:39</sys_updated_on>
+        <sys_updated_on>2019-10-17 02:58:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1689,7 +1689,7 @@
         <icon/>
         <inputs/>
         <inputs/>
-        <label>REST step</label>
+        <label>Shut Down VM via REST</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -1699,7 +1699,7 @@
         <sys_created_on>2019-10-16 23:53:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b187042ddba48410d3333ecf9d9619f7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1707,7 +1707,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-16 23:53:38</sys_updated_on>
+        <sys_updated_on>2019-10-17 02:58:15</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b187042ddba48410d3333ecf9d9619f7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2075,7 +2075,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">b187042ddba48410d3333ecf9d9619f7</model>
+        <model display_value="Shut Down VM via REST">b187042ddba48410d3333ecf9d9619f7</model>
         <model_id>b187042ddba48410d3333ecf9d9619f7</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_b187042ddba48410d3333ecf9d9619f7</name>
@@ -2124,7 +2124,7 @@
         <element>linodeid</element>
         <help/>
         <hint/>
-        <label>id</label>
+        <label>Linode ID</label>
         <language>en</language>
         <name>var__m_sys_hub_action_input_d0608825dba48410d3333ecf9d9619b9</name>
         <plural/>
@@ -2133,15 +2133,15 @@
         <sys_created_on>2019-10-16 23:53:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f587042ddba48410d3333ecf9d9619f5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>id</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Linode ID</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d0608825dba48410d3333ecf9d9619b9_linodeid_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-16 23:53:38</sys_updated_on>
+        <sys_updated_on>2019-10-17 02:58:15</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2150,7 +2150,7 @@
         <element>message</element>
         <help/>
         <hint/>
-        <label>message</label>
+        <label>Message</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_d0608825dba48410d3333ecf9d9619b9</name>
         <plural/>
@@ -2159,15 +2159,15 @@
         <sys_created_on>2019-10-16 23:53:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8e87442ddba48410d3333ecf9d961930</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>message</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Message</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d0608825dba48410d3333ecf9d9619b9_message_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-16 23:53:39</sys_updated_on>
+        <sys_updated_on>2019-10-17 02:58:16</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2175,7 +2175,7 @@
         <element>shutdown</element>
         <help/>
         <hint/>
-        <label>shutdown</label>
+        <label>Succeeded</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_d0608825dba48410d3333ecf9d9619b9</name>
         <plural/>
@@ -2184,15 +2184,15 @@
         <sys_created_on>2019-10-16 23:53:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ca87442ddba48410d3333ecf9d961935</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>shutdown</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Succeeded</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d0608825dba48410d3333ecf9d9619b9_shutdown_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-16 23:53:39</sys_updated_on>
+        <sys_updated_on>2019-10-17 02:58:16</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

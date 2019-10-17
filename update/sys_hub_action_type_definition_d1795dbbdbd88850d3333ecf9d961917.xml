@@ -10,22 +10,22 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>get_vm_types</internal_name>
-        <label_cache>[{"name":"{{step[0e75450e-8f9b-441f-9f82-8deae9286b83].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[4360332c-4b48-4a0e-b30a-351f4b9c174a].type}}","label":"step➛Parse Types into Data➛type","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{step[0e75450e-8f9b-441f-9f82-8deae9286b83].response_body}}","label":"step➛Get Types via REST➛Response Body","type":"step","ref":""},{"name":"{{step[4360332c-4b48-4a0e-b30a-351f4b9c174a].type}}","label":"step➛Parse Types into Data➛type","type":"step","ref":""}]</label_cache>
         <latest_snapshot>baabf7e8dba4c010d3333ecf9d961996</latest_snapshot>
         <master_snapshot>7a35b2f7dbd00010a5da3200ad96190d</master_snapshot>
         <name>Get VM Types</name>
         <outputs/>
         <outputs/>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-11 19:22:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d1795dbbdbd88850d3333ecf9d961917</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>Get VM Types</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
@@ -33,8 +33,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d1795dbbdbd88850d3333ecf9d961917</sys_update_name>
-        <sys_updated_by>joshua.nerius@snc</sys_updated_by>
-        <sys_updated_on>2019-10-14 15:06:24</sys_updated_on>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-17 03:01:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -350,7 +350,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>REST step</label>
+        <label>Get Types via REST</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -360,7 +360,7 @@
         <sys_created_on>2019-10-12 02:00:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3894b6b7dbd00010a5da3200ad96197b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -368,7 +368,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-12 02:00:20</sys_updated_on>
+        <sys_updated_on>2019-10-17 03:01:07</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3894b6b7dbd00010a5da3200ad96197b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -579,7 +579,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">3894b6b7dbd00010a5da3200ad96197b</model>
+        <model display_value="Get Types via REST">3894b6b7dbd00010a5da3200ad96197b</model>
         <model_id>3894b6b7dbd00010a5da3200ad96197b</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_3894b6b7dbd00010a5da3200ad96197b</name>
@@ -662,7 +662,7 @@
         <hint/>
         <internal_link/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>output</label>
+        <label>Output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
         <model display_value="Get VM Types">d1795dbbdbd88850d3333ecf9d961917</model>
@@ -689,7 +689,7 @@
         <sys_created_on>2019-10-13 14:39:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>95eb22dcdbec4010a5da3200ad961964</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -697,7 +697,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-13 14:39:22</sys_updated_on>
+        <sys_updated_on>2019-10-17 03:01:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -995,7 +995,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>REST step</label>
+        <label>Get Types via REST</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -1005,7 +1005,7 @@
         <sys_created_on>2019-10-12 02:00:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3894b6b7dbd00010a5da3200ad96197b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1013,7 +1013,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-12 02:00:20</sys_updated_on>
+        <sys_updated_on>2019-10-17 03:01:07</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3894b6b7dbd00010a5da3200ad96197b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1224,7 +1224,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">3894b6b7dbd00010a5da3200ad96197b</model>
+        <model display_value="Get Types via REST">3894b6b7dbd00010a5da3200ad96197b</model>
         <model_id>3894b6b7dbd00010a5da3200ad96197b</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_3894b6b7dbd00010a5da3200ad96197b</name>
@@ -1273,7 +1273,7 @@
         <element>output</element>
         <help/>
         <hint/>
-        <label>output</label>
+        <label>Output</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_d1795dbbdbd88850d3333ecf9d961917</name>
         <plural/>
@@ -1282,15 +1282,15 @@
         <sys_created_on>2019-10-13 14:39:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>69eb22dcdbec4010a5da3200ad961968</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Output</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d1795dbbdbd88850d3333ecf9d961917_output_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-13 14:39:22</sys_updated_on>
+        <sys_updated_on>2019-10-17 03:01:07</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
