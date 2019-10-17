@@ -4,15 +4,15 @@
         <acls/>
         <action_template/>
         <active>true</active>
-        <annotation/>
+        <annotation>Create a Linode VM. Image is optional, if chosen it will boot immediately.</annotation>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>Given a region and a VM type and an optional image, create a VM instance. Action will return the label, the ID, IP address and root password.</description>
         <ih_action>false</ih_action>
         <internal_name>create_vm</internal_name>
-        <label_cache>[{"name":"{{action.region}}","label":"action➛region","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛type","type":"action","ref":""},{"name":"{{step[fcd24be0-bd8d-48f5-b3f5-8cdc93e10665].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[2a3ebf52-c12c-4e5e-a3ee-675862c81004].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":""},{"name":"{{step[fcd24be0-bd8d-48f5-b3f5-8cdc93e10665].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].label}}","label":"step➛Script step➛label","type":"step","ref":""},{"name":"{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].ipv4}}","label":"step➛Script step➛ipv4","type":"step","ref":""},{"name":"{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].id}}","label":"step➛Script step➛id","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.region}}","label":"action➛region","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛type","type":"action","ref":""},{"name":"{{action.image}}","label":"action➛image","type":"action","ref":""},{"name":"{{step[fcd24be0-bd8d-48f5-b3f5-8cdc93e10665].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[2a3ebf52-c12c-4e5e-a3ee-675862c81004].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":""},{"name":"{{step[fcd24be0-bd8d-48f5-b3f5-8cdc93e10665].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].label}}","label":"Parse Resultsstep➛➛label","type":"step","ref":""},{"name":"{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].ipv4}}","label":"Parse Resultsstep➛➛ipv4","type":"step","ref":""},{"name":"{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].id}}","label":"Parse Resultsstep➛➛id","type":"step","ref":""},{"name":"{{step[c78e4500-f19f-4c2f-874d-5680608ae0a3].password}}","label":"step➛Create Random Password➛password","type":"step","ref":""}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Create VM</name>
@@ -25,7 +25,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0798e9e5dbdc4050d3333ecf9d9619e9</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Create VM</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_0798e9e5dbdc4050d3333ecf9d9619e9</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-15 02:51:22</sys_updated_on>
+        <sys_updated_on>2019-10-16 23:21:47</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -90,7 +90,19 @@
         <table>var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9</table>
         <value>{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].label}}</value>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN30203161db108050d3333ecf9d961959,343f2121db108050d3333ecf9d9619d2,884aada9dbdc4050d3333ecf9d961918"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>root_password</field>
+        <id>0798e9e5dbdc4050d3333ecf9d9619e9</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:43</sys_created_on>
+        <sys_id>1e4febd1db648410d3333ecf9d9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9</table>
+        <value>{{step[c78e4500-f19f-4c2f-874d-5680608ae0a3].password}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN30203161db108050d3333ecf9d961959,343f2121db108050d3333ecf9d9619d2,884aada9dbdc4050d3333ecf9d961918,ce4febd1db648410d3333ecf9d961962"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Create VM">0798e9e5dbdc4050d3333ecf9d9619e9</action>
         <cid>5f16ce4c-d863-4501-80a9-20d3fa1d85c9</cid>
@@ -99,8 +111,8 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
-        <order>3</order>
+        <label>Parse Results</label>
+        <order>4</order>
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
@@ -109,7 +121,7 @@
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>30203161db108050d3333ecf9d961959</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -117,7 +129,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-04 21:14:58</sys_updated_on>
+        <sys_updated_on>2019-10-16 22:07:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=30203161db108050d3333ecf9d961959"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -232,7 +244,7 @@ var json = JSON.parse(inputs.payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">30203161db108050d3333ecf9d961959</model>
+        <model display_value="Parse Results">30203161db108050d3333ecf9d961959</model>
         <model_id>30203161db108050d3333ecf9d961959</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_30203161db108050d3333ecf9d961959</name>
@@ -316,7 +328,7 @@ var json = JSON.parse(inputs.payload);
         <label>ipv4</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">30203161db108050d3333ecf9d961959</model>
+        <model display_value="Parse Results">30203161db108050d3333ecf9d961959</model>
         <model_id>30203161db108050d3333ecf9d961959</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_30203161db108050d3333ecf9d961959</name>
@@ -399,7 +411,7 @@ var json = JSON.parse(inputs.payload);
         <label>label</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">30203161db108050d3333ecf9d961959</model>
+        <model display_value="Parse Results">30203161db108050d3333ecf9d961959</model>
         <model_id>30203161db108050d3333ecf9d961959</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_30203161db108050d3333ecf9d961959</name>
@@ -482,7 +494,7 @@ var json = JSON.parse(inputs.payload);
         <label>id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">30203161db108050d3333ecf9d961959</model>
+        <model display_value="Parse Results">30203161db108050d3333ecf9d961959</model>
         <model_id>30203161db108050d3333ecf9d961959</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_30203161db108050d3333ecf9d961959</name>
@@ -535,7 +547,7 @@ var json = JSON.parse(inputs.payload);
         <inputs/>
         <inputs/>
         <label>Payload Builder step</label>
-        <order>1</order>
+        <order>2</order>
         <outputs/>
         <section/>
         <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
@@ -544,7 +556,7 @@ var json = JSON.parse(inputs.payload);
         <sys_created_on>2019-10-04 21:10:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>343f2121db108050d3333ecf9d9619d2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -552,7 +564,7 @@ var json = JSON.parse(inputs.payload);
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-15 02:16:54</sys_updated_on>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=343f2121db108050d3333ecf9d9619d2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -576,11 +588,11 @@ var json = JSON.parse(inputs.payload);
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:10:52</sys_created_on>
         <sys_id>b03f2121db108050d3333ecf9d9619d8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-15 02:16:54</sys_updated_on>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_2429af02b3331300176b051a16a8dcab</table>
-        <value>{"type":"ADV_NV","value":[{"name":"region","value":"{{action.region}}","attributes":{}},{"name":"type","value":"{{action.type}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"region","value":"{{action.region}}","attributes":{}},{"name":"type","value":"{{action.type}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"image","value":"{{action.image}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"root_pass","value":"{{step[c78e4500-f19f-4c2f-874d-5680608ae0a3].password}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Create VM">0798e9e5dbdc4050d3333ecf9d9619e9</action>
@@ -591,7 +603,7 @@ var json = JSON.parse(inputs.payload);
         <inputs/>
         <inputs/>
         <label>REST step</label>
-        <order>2</order>
+        <order>3</order>
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
@@ -600,7 +612,7 @@ var json = JSON.parse(inputs.payload);
         <sys_created_on>2019-10-04 20:49:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>884aada9dbdc4050d3333ecf9d961918</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -608,7 +620,7 @@ var json = JSON.parse(inputs.payload);
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-04 21:10:53</sys_updated_on>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=884aada9dbdc4050d3333ecf9d961918"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1046,7 +1058,156 @@ var json = JSON.parse(inputs.payload);
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN3ffa78b7db180850a5da3200ad961935,bfd5bef7dbd00010a5da3200ad9619b2"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create VM">0798e9e5dbdc4050d3333ecf9d9619e9</action>
+        <cid>c78e4500-f19f-4c2f-874d-5680608ae0a3</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create Random Password</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ce4febd1db648410d3333ecf9d961962</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce4febd1db648410d3333ecf9d961962"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce4febd1db648410d3333ecf9d961962</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+        <sys_id>1a4febd1db648410d3333ecf9d96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce4febd1db648410d3333ecf9d961962</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+        <sys_id>da4febd1db648410d3333ecf9d96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var length = 15,
+      charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      randPassword = "";
+    for (var i = 0, n = charset.length; i &lt; length; ++i) {
+        randPassword += charset.charAt(Math.floor(Math.random() * n));
+    }
+	outputs.password = randPassword;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ce4febd1db648410d3333ecf9d961962^sys_idNOT IN924febd1db648410d3333ecf9d961967"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>password</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>password</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Random Password">ce4febd1db648410d3333ecf9d961962</model>
+        <model_id>ce4febd1db648410d3333ecf9d961962</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ce4febd1db648410d3333ecf9d961962</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>924febd1db648410d3333ecf9d961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN3ffa78b7db180850a5da3200ad961935,bfd5bef7dbd00010a5da3200ad9619b2,c626ab99db248410d3333ecf9d961953"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1138,9 +1299,9 @@ var json = JSON.parse(inputs.payload);
         <sys_created_by>andrew.barnes</sys_created_by>
         <sys_created_on>2019-10-11 17:09:09</sys_created_on>
         <sys_id>b7fa78b7db180850a5da3200ad96193d</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-15 02:51:21</sys_updated_on>
+        <sys_updated_on>2019-10-16 23:21:45</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b7fa78b7db180850a5da3200ad96193d"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -1234,12 +1395,108 @@ var json = JSON.parse(inputs.payload);
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-12 02:05:59</sys_created_on>
         <sys_id>33d5bef7dbd00010a5da3200ad9619ba</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-15 02:51:21</sys_updated_on>
+        <sys_updated_on>2019-10-16 23:21:46</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=33d5bef7dbd00010a5da3200ad9619ba"/>
-    <sys_hub_action_output action="delete_multiple" query="model=0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN457ad2b8db200410d3333ecf9d96198c,8d7ad2b8db200410d3333ecf9d961986,f50d5e3cdb200410d3333ecf9d9619e3"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>image</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>image</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create VM">0798e9e5dbdc4050d3333ecf9d9619e9</model>
+        <model_id>0798e9e5dbdc4050d3333ecf9d9619e9</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 21:27:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c626ab99db248410d3333ecf9d961953</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 21:27:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c626ab99db248410d3333ecf9d961953^sys_idNOT IN4e26ab99db248410d3333ecf9d96195d"/>
+    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
+        <action_input display_value="">c626ab99db248410d3333ecf9d961953</action_input>
+        <action_inputs/>
+        <action_type display_value="Get Images">bb43a2f0db600410d3333ecf9d96197e</action_type>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 21:27:50</sys_created_on>
+        <sys_id>4e26ab99db248410d3333ecf9d96195d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 23:21:46</sys_updated_on>
+    </sys_hub_action_input_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4e26ab99db248410d3333ecf9d96195d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN457ad2b8db200410d3333ecf9d96198c,8d7ad2b8db200410d3333ecf9d961986,924febd1db648410d3333ecf9d9619a5,f50d5e3cdb200410d3333ecf9d9619e3"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1414,6 +1671,91 @@ var json = JSON.parse(inputs.payload);
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root_password</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root password</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create VM">0798e9e5dbdc4050d3333ecf9d9619e9</model>
+        <model_id>0798e9e5dbdc4050d3333ecf9d9619e9</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>924febd1db648410d3333ecf9d9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -1495,7 +1837,7 @@ var json = JSON.parse(inputs.payload);
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN30203161db108050d3333ecf9d961959,343f2121db108050d3333ecf9d9619d2,884aada9dbdc4050d3333ecf9d961918"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN30203161db108050d3333ecf9d961959,343f2121db108050d3333ecf9d9619d2,884aada9dbdc4050d3333ecf9d961918,ce4febd1db648410d3333ecf9d961962"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Create VM">0798e9e5dbdc4050d3333ecf9d9619e9</action>
         <cid>5f16ce4c-d863-4501-80a9-20d3fa1d85c9</cid>
@@ -1504,8 +1846,8 @@ var json = JSON.parse(inputs.payload);
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
-        <order>3</order>
+        <label>Parse Results</label>
+        <order>4</order>
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
@@ -1514,7 +1856,7 @@ var json = JSON.parse(inputs.payload);
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>30203161db108050d3333ecf9d961959</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1522,7 +1864,7 @@ var json = JSON.parse(inputs.payload);
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-04 21:14:58</sys_updated_on>
+        <sys_updated_on>2019-10-16 22:07:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=30203161db108050d3333ecf9d961959"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1637,7 +1979,7 @@ var json = JSON.parse(inputs.payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">30203161db108050d3333ecf9d961959</model>
+        <model display_value="Parse Results">30203161db108050d3333ecf9d961959</model>
         <model_id>30203161db108050d3333ecf9d961959</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_30203161db108050d3333ecf9d961959</name>
@@ -1721,7 +2063,7 @@ var json = JSON.parse(inputs.payload);
         <label>ipv4</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">30203161db108050d3333ecf9d961959</model>
+        <model display_value="Parse Results">30203161db108050d3333ecf9d961959</model>
         <model_id>30203161db108050d3333ecf9d961959</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_30203161db108050d3333ecf9d961959</name>
@@ -1804,7 +2146,7 @@ var json = JSON.parse(inputs.payload);
         <label>label</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">30203161db108050d3333ecf9d961959</model>
+        <model display_value="Parse Results">30203161db108050d3333ecf9d961959</model>
         <model_id>30203161db108050d3333ecf9d961959</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_30203161db108050d3333ecf9d961959</name>
@@ -1887,7 +2229,7 @@ var json = JSON.parse(inputs.payload);
         <label>id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">30203161db108050d3333ecf9d961959</model>
+        <model display_value="Parse Results">30203161db108050d3333ecf9d961959</model>
         <model_id>30203161db108050d3333ecf9d961959</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_30203161db108050d3333ecf9d961959</name>
@@ -1940,7 +2282,7 @@ var json = JSON.parse(inputs.payload);
         <inputs/>
         <inputs/>
         <label>Payload Builder step</label>
-        <order>1</order>
+        <order>2</order>
         <outputs/>
         <section/>
         <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
@@ -1949,7 +2291,7 @@ var json = JSON.parse(inputs.payload);
         <sys_created_on>2019-10-04 21:10:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>343f2121db108050d3333ecf9d9619d2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1957,7 +2299,7 @@ var json = JSON.parse(inputs.payload);
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-15 02:16:54</sys_updated_on>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=343f2121db108050d3333ecf9d9619d2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1981,11 +2323,11 @@ var json = JSON.parse(inputs.payload);
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:10:52</sys_created_on>
         <sys_id>b03f2121db108050d3333ecf9d9619d8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-15 02:16:54</sys_updated_on>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_2429af02b3331300176b051a16a8dcab</table>
-        <value>{"type":"ADV_NV","value":[{"name":"region","value":"{{action.region}}","attributes":{}},{"name":"type","value":"{{action.type}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"region","value":"{{action.region}}","attributes":{}},{"name":"type","value":"{{action.type}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"image","value":"{{action.image}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"root_pass","value":"{{step[c78e4500-f19f-4c2f-874d-5680608ae0a3].password}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Create VM">0798e9e5dbdc4050d3333ecf9d9619e9</action>
@@ -1996,7 +2338,7 @@ var json = JSON.parse(inputs.payload);
         <inputs/>
         <inputs/>
         <label>REST step</label>
-        <order>2</order>
+        <order>3</order>
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
@@ -2005,7 +2347,7 @@ var json = JSON.parse(inputs.payload);
         <sys_created_on>2019-10-04 20:49:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>884aada9dbdc4050d3333ecf9d961918</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2013,7 +2355,7 @@ var json = JSON.parse(inputs.payload);
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-04 21:10:53</sys_updated_on>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=884aada9dbdc4050d3333ecf9d961918"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2451,7 +2793,156 @@ var json = JSON.parse(inputs.payload);
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN3ffa78b7db180850a5da3200ad96193c,b7d5bef7dbd00010a5da3200ad9619b9"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create VM">0798e9e5dbdc4050d3333ecf9d9619e9</action>
+        <cid>c78e4500-f19f-4c2f-874d-5680608ae0a3</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create Random Password</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ce4febd1db648410d3333ecf9d961962</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce4febd1db648410d3333ecf9d961962"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce4febd1db648410d3333ecf9d961962</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+        <sys_id>1a4febd1db648410d3333ecf9d96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce4febd1db648410d3333ecf9d961962</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+        <sys_id>da4febd1db648410d3333ecf9d96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var length = 15,
+      charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      randPassword = "";
+    for (var i = 0, n = charset.length; i &lt; length; ++i) {
+        randPassword += charset.charAt(Math.floor(Math.random() * n));
+    }
+	outputs.password = randPassword;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ce4febd1db648410d3333ecf9d961962^sys_idNOT IN924febd1db648410d3333ecf9d961967"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>password</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>password</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Random Password">ce4febd1db648410d3333ecf9d961962</model>
+        <model_id>ce4febd1db648410d3333ecf9d961962</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ce4febd1db648410d3333ecf9d961962</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>924febd1db648410d3333ecf9d961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN3ffa78b7db180850a5da3200ad96193c,b7d5bef7dbd00010a5da3200ad9619b9,ca26ab99db248410d3333ecf9d96195c"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>region</element>
         <help/>
@@ -2502,7 +2993,376 @@ var json = JSON.parse(inputs.payload);
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT INac8b70f7db180850a5da3200ad961914,e88b70f7db180850a5da3200ad961919,208b70f7db180850a5da3200ad961914,a48b70f7db180850a5da3200ad96191a,208b70f7db180850a5da3200ad961919,648b70f7db180850a5da3200ad961918,688b70f7db180850a5da3200ad961915,a88b70f7db180850a5da3200ad961917,ec8b70f7db180850a5da3200ad961916,248b70f7db180850a5da3200ad961916,05259e34db200410d3333ecf9d96195f,cd259e34db200410d3333ecf9d96195f,89259e34db200410d3333ecf9d961960,45259e34db200410d3333ecf9d961961,01259e34db200410d3333ecf9d961962,c9259e34db200410d3333ecf9d961962,85259e34db200410d3333ecf9d961963,41259e34db200410d3333ecf9d961964,0d259e34db200410d3333ecf9d961964,c5259e34db200410d3333ecf9d961965,81259e34db200410d3333ecf9d961966,4d259e34db200410d3333ecf9d961966,09259e34db200410d3333ecf9d961967,c1259e34db200410d3333ecf9d961968,8d259e34db200410d3333ecf9d961968,49259e34db200410d3333ecf9d961969,05259e34db200410d3333ecf9d96196a,cd259e34db200410d3333ecf9d96196a,89259e34db200410d3333ecf9d96196b,45259e34db200410d3333ecf9d96196c,01259e34db200410d3333ecf9d96196d,c9259e34db200410d3333ecf9d96196d,85259e34db200410d3333ecf9d96196e,41259e34db200410d3333ecf9d96196f,0d259e34db200410d3333ecf9d96196f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>image</element>
+        <help/>
+        <hint/>
+        <label>image</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 21:27:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ca26ab99db248410d3333ecf9d96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>image</sys_name>
+        <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9_image_en</sys_update_name>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 21:27:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN8e4febd1db648410d3333ecf9d961951,0e4febd1db648410d3333ecf9d961952,c64febd1db648410d3333ecf9d961953,824febd1db648410d3333ecf9d961954,4e4febd1db648410d3333ecf9d961954,0a4febd1db648410d3333ecf9d961955,c24febd1db648410d3333ecf9d961956,8e4febd1db648410d3333ecf9d961956,4a4febd1db648410d3333ecf9d961957,064febd1db648410d3333ecf9d961958,ce4febd1db648410d3333ecf9d961958,8a4febd1db648410d3333ecf9d961959,464febd1db648410d3333ecf9d96195a,024febd1db648410d3333ecf9d96195b,ca4febd1db648410d3333ecf9d96195b,864febd1db648410d3333ecf9d96195c,424febd1db648410d3333ecf9d96195d,0e4febd1db648410d3333ecf9d96195d,ac8b70f7db180850a5da3200ad961914,e88b70f7db180850a5da3200ad961919,208b70f7db180850a5da3200ad961914,a48b70f7db180850a5da3200ad96191a,208b70f7db180850a5da3200ad961919,648b70f7db180850a5da3200ad961918,688b70f7db180850a5da3200ad961915,a88b70f7db180850a5da3200ad961917,ec8b70f7db180850a5da3200ad961916,248b70f7db180850a5da3200ad961916,05259e34db200410d3333ecf9d96195f,cd259e34db200410d3333ecf9d96195f,89259e34db200410d3333ecf9d961960,45259e34db200410d3333ecf9d961961,01259e34db200410d3333ecf9d961962,c9259e34db200410d3333ecf9d961962,85259e34db200410d3333ecf9d961963,41259e34db200410d3333ecf9d961964,0d259e34db200410d3333ecf9d961964,c5259e34db200410d3333ecf9d961965,81259e34db200410d3333ecf9d961966,4d259e34db200410d3333ecf9d961966,09259e34db200410d3333ecf9d961967,c1259e34db200410d3333ecf9d961968,8d259e34db200410d3333ecf9d961968,49259e34db200410d3333ecf9d961969,05259e34db200410d3333ecf9d96196a,cd259e34db200410d3333ecf9d96196a,89259e34db200410d3333ecf9d96196b,45259e34db200410d3333ecf9d96196c,01259e34db200410d3333ecf9d96196d,c9259e34db200410d3333ecf9d96196d,85259e34db200410d3333ecf9d96196e,41259e34db200410d3333ecf9d96196f,0d259e34db200410d3333ecf9d96196f"/>
+    <sys_choice field="image" table="var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alpine 3.10</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>0</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e4febd1db648410d3333ecf9d961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/alpine3.10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alpine 3.9</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>1</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e4febd1db648410d3333ecf9d961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/alpine3.9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arch Linux</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>2</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c64febd1db648410d3333ecf9d961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/arch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CentOS 7</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>3</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>824febd1db648410d3333ecf9d961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/centos7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CentOS 8</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>4</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e4febd1db648410d3333ecf9d961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/centos8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CoreOS Container Linux</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>5</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a4febd1db648410d3333ecf9d961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/containerlinux</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Debian 10</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>6</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c24febd1db648410d3333ecf9d961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/debian10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Debian 8</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>7</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e4febd1db648410d3333ecf9d961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/debian8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Debian 9</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>8</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a4febd1db648410d3333ecf9d961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/debian9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fedora 29</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>9</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>064febd1db648410d3333ecf9d961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/fedora29</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fedora 30</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>10</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce4febd1db648410d3333ecf9d961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/fedora30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gentoo</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>11</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a4febd1db648410d3333ecf9d961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/gentoo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>openSUSE Leap 15.0</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>12</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>464febd1db648410d3333ecf9d96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/opensuse15.0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>openSUSE Leap 15.1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>13</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>024febd1db648410d3333ecf9d96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/opensuse15.1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Slackware 14.2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>14</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca4febd1db648410d3333ecf9d96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/slackware14.2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ubuntu 16.04 LTS</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>15</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>864febd1db648410d3333ecf9d96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/ubuntu16.04lts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ubuntu 18.04 LTS</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>16</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>424febd1db648410d3333ecf9d96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/ubuntu18.04</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ubuntu 19.04</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+            <sequence>17</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-16 22:07:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e4febd1db648410d3333ecf9d96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-16 22:07:42</sys_updated_on>
+            <value>linode/ubuntu19.04</value>
+        </sys_choice>
+    </sys_choice>
     <sys_choice field="region" table="var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -3172,7 +4032,32 @@ var json = JSON.parse(inputs.payload);
             <value>g1-gpu-rtx6000-4</value>
         </sys_choice>
     </sys_choice>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN750d5e3cdb200410d3333ecf9d9619e7,897ad2b8db200410d3333ecf9d96198b,c57ad2b8db200410d3333ecf9d96199c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN164febd1db648410d3333ecf9d9619a9,750d5e3cdb200410d3333ecf9d9619e7,897ad2b8db200410d3333ecf9d96198b,c57ad2b8db200410d3333ecf9d96199c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root_password</element>
+        <help/>
+        <hint/>
+        <label>root password</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-16 22:07:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>164febd1db648410d3333ecf9d9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>root password</sys_name>
+        <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9_root_password_en</sys_update_name>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-16 22:07:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>id</element>
         <help/>
