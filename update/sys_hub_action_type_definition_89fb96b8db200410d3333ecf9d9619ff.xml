@@ -12,7 +12,7 @@
         <description>Given a VM provisioned by Create VM, start it up</description>
         <ih_action>false</ih_action>
         <internal_name>start_vm</internal_name>
-        <label_cache>[{"name":"{{action.linodeid}}","label":"action➛Linode ID","type":"action","ref":""},{"name":"{{step[2894ee2c-7274-47dd-8196-1afa4e24784b].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[2894ee2c-7274-47dd-8196-1afa4e24784b].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[2894ee2c-7274-47dd-8196-1afa4e24784b].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[978b995b-13ef-472a-b62c-d44c55eba5cb].result}}","label":"step➛Parse Results➛result","type":"step","ref":""},{"name":"{{step[978b995b-13ef-472a-b62c-d44c55eba5cb].message}}","label":"step➛Parse Results➛message","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.linodeid}}","label":"action➛Linode ID","type":"action","ref":""},{"name":"{{step[2894ee2c-7274-47dd-8196-1afa4e24784b].sn_auth_token}}","label":"step➛Start VM via Rest➛Credential Value","type":"step","ref":""},{"name":"{{step[2894ee2c-7274-47dd-8196-1afa4e24784b].status_code}}","label":"step➛Start VM via Rest➛Status Code","type":"step","ref":""},{"name":"{{step[2894ee2c-7274-47dd-8196-1afa4e24784b].response_body}}","label":"step➛Start VM via Rest➛Response Body","type":"step","ref":""},{"name":"{{step[978b995b-13ef-472a-b62c-d44c55eba5cb].result}}","label":"step➛Parse Results➛result","type":"step","ref":""},{"name":"{{step[978b995b-13ef-472a-b62c-d44c55eba5cb].message}}","label":"step➛Parse Results➛message","type":"step","ref":""}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Start VM</name>
@@ -25,7 +25,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>89fb96b8db200410d3333ecf9d9619ff</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Start VM</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_89fb96b8db200410d3333ecf9d9619ff</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-17 02:55:28</sys_updated_on>
+        <sys_updated_on>2019-10-18 13:11:25</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -540,7 +540,7 @@
         <icon/>
         <inputs/>
         <inputs/>
-        <label>REST step</label>
+        <label>Start VM via Rest</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -550,7 +550,7 @@
         <sys_created_on>2019-10-15 02:56:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ee2e52bcdb200410d3333ecf9d961976</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -558,7 +558,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-15 02:58:06</sys_updated_on>
+        <sys_updated_on>2019-10-18 13:11:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee2e52bcdb200410d3333ecf9d961976"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -926,7 +926,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">ee2e52bcdb200410d3333ecf9d961976</model>
+        <model display_value="Start VM via Rest">ee2e52bcdb200410d3333ecf9d961976</model>
         <model_id>ee2e52bcdb200410d3333ecf9d961976</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_ee2e52bcdb200410d3333ecf9d961976</name>
@@ -1687,7 +1687,7 @@
         <icon/>
         <inputs/>
         <inputs/>
-        <label>REST step</label>
+        <label>Start VM via Rest</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -1697,7 +1697,7 @@
         <sys_created_on>2019-10-15 02:56:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ee2e52bcdb200410d3333ecf9d961976</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1705,7 +1705,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-15 02:58:06</sys_updated_on>
+        <sys_updated_on>2019-10-18 13:11:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee2e52bcdb200410d3333ecf9d961976"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2073,7 +2073,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">ee2e52bcdb200410d3333ecf9d961976</model>
+        <model display_value="Start VM via Rest">ee2e52bcdb200410d3333ecf9d961976</model>
         <model_id>ee2e52bcdb200410d3333ecf9d961976</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_ee2e52bcdb200410d3333ecf9d961976</name>
