@@ -6,7 +6,7 @@
         <active>true</active>
         <annotation>Create a Linode VM. Image is optional, if chosen it will boot immediately.</annotation>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="VM">07eb4cc6dba40810d3333ecf9d9619f9</category>
         <copied_from/>
         <copied_from_name/>
         <description>Given a region and a VM type and an optional image, create a VM instance. Action will return the label, the ID, IP address and root password.</description>
@@ -25,7 +25,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0798e9e5dbdc4050d3333ecf9d9619e9</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Create VM</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_0798e9e5dbdc4050d3333ecf9d9619e9</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-17 02:54:45</sys_updated_on>
+        <sys_updated_on>2019-10-18 13:31:49</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1299,9 +1299,9 @@ var json = JSON.parse(inputs.payload);
         <sys_created_by>andrew.barnes</sys_created_by>
         <sys_created_on>2019-10-11 17:09:09</sys_created_on>
         <sys_id>b7fa78b7db180850a5da3200ad96193d</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-17 02:54:44</sys_updated_on>
+        <sys_updated_on>2019-10-18 13:31:48</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b7fa78b7db180850a5da3200ad96193d"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -1395,9 +1395,9 @@ var json = JSON.parse(inputs.payload);
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-12 02:05:59</sys_created_on>
         <sys_id>33d5bef7dbd00010a5da3200ad9619ba</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-17 02:54:44</sys_updated_on>
+        <sys_updated_on>2019-10-18 13:31:48</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=33d5bef7dbd00010a5da3200ad9619ba"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -1491,9 +1491,9 @@ var json = JSON.parse(inputs.payload);
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-16 21:27:50</sys_created_on>
         <sys_id>4e26ab99db248410d3333ecf9d96195d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-17 02:54:44</sys_updated_on>
+        <sys_updated_on>2019-10-18 13:31:48</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4e26ab99db248410d3333ecf9d96195d"/>
     <sys_hub_action_output action="delete_multiple" query="model=0798e9e5dbdc4050d3333ecf9d9619e9^sys_idNOT IN457ad2b8db200410d3333ecf9d96198c,8d7ad2b8db200410d3333ecf9d961986,924febd1db648410d3333ecf9d9619a5,f50d5e3cdb200410d3333ecf9d9619e3"/>
