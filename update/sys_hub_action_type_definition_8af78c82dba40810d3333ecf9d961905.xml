@@ -25,7 +25,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>8af78c82dba40810d3333ecf9d961905</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Delete VM</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_8af78c82dba40810d3333ecf9d961905</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-18 13:18:14</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:26:40</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1178,7 +1178,7 @@
         <hint/>
         <internal_link/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Result</label>
+        <label>Succeeded</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <model display_value="Delete VM">8af78c82dba40810d3333ecf9d961905</model>
@@ -1205,7 +1205,7 @@
         <sys_created_on>2019-10-18 13:18:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e1498c06dba40810d3333ecf9d9619e5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1213,7 +1213,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-18 13:18:14</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:26:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2173,7 +2173,7 @@
         <element>result</element>
         <help/>
         <hint/>
-        <label>Result</label>
+        <label>Succeeded</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_8af78c82dba40810d3333ecf9d961905</name>
         <plural/>
@@ -2182,15 +2182,15 @@
         <sys_created_on>2019-10-18 13:18:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f5498c06dba40810d3333ecf9d9619e9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Result</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Succeeded</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_8af78c82dba40810d3333ecf9d961905_result_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-18 13:18:14</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:26:39</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

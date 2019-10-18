@@ -12,7 +12,7 @@
         <description/>
         <ih_action>false</ih_action>
         <internal_name>region</internal_name>
-        <label_cache>[{"name":"{{step[2e71c6ac-9957-403d-81bd-acc9e6dc7b9a].region}}","label":"step➛Parse Regions into Data➛region","type":"step","ref":""},{"name":"{{step[559b8ec9-a63f-42c3-b6fb-8d37605d3310].response_body}}","label":"step➛Get Images via REST➛Response Body","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{step[2e71c6ac-9957-403d-81bd-acc9e6dc7b9a].region}}","label":"step➛Parse Regions into Data➛region","type":"step","ref":""},{"name":"{{step[559b8ec9-a63f-42c3-b6fb-8d37605d3310].response_body}}","label":"step➛Get Regions via REST➛Response Body","type":"step","ref":""},{"name":"{{step[559b8ec9-a63f-42c3-b6fb-8d37605d3310].status_code}}","label":"step➛Get Regions via REST➛Status Code","type":"step","ref":""}]</label_cache>
         <latest_snapshot>34819034db24c010a5da3200ad9619d4</latest_snapshot>
         <master_snapshot>f0eab4b7db180850a5da3200ad961999</master_snapshot>
         <name>Get Regions</name>
@@ -25,7 +25,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>83357833db180850a5da3200ad9619b7</sys_id>
-        <sys_mod_count>112</sys_mod_count>
+        <sys_mod_count>115</sys_mod_count>
         <sys_name>Get Regions</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_83357833db180850a5da3200ad9619b7</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-17 02:57:03</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:23:11</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -60,7 +60,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Get Images via REST</label>
+        <label>Get Regions via REST</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -70,7 +70,7 @@
         <sys_created_on>2019-10-11 16:49:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1e8630b3db180850a5da3200ad9619b2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -78,7 +78,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-17 02:57:03</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:22:37</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e8630b3db180850a5da3200ad9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -289,7 +289,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Get Images via REST">1e8630b3db180850a5da3200ad9619b2</model>
+        <model display_value="Get Regions via REST">1e8630b3db180850a5da3200ad9619b2</model>
         <model_id>1e8630b3db180850a5da3200ad9619b2</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_1e8630b3db180850a5da3200ad9619b2</name>
@@ -351,7 +351,7 @@
         <sys_created_on>2019-10-11 17:01:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ab29b837db180850a5da3200ad961920</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -359,7 +359,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-14 16:41:47</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:23:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ab29b837db180850a5da3200ad961920"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -384,24 +384,23 @@
         <sys_created_by>andrew.barnes</sys_created_by>
         <sys_created_on>2019-10-11 17:01:13</sys_created_on>
         <sys_id>7729b837db180850a5da3200ad961931</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-14 16:41:47</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:23:11</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var regions = [];
-  var payload = JSON.parse(inputs.responseBody);
-  for(var i=0; i&lt;payload.data.length; i++){
-    var linodeRegion = payload.data[i];
-    var region = {'label': linodeRegion.country.toUpperCase() + " - " + linodeRegion.id  ,
+  if (inputs.status == '200') {
+    var payload = JSON.parse(inputs.responseBody)
+    for(var i=0; i&lt;payload.data.length; i++){
+      var linodeRegion = payload.data[i];
+      var region = {'label': linodeRegion.country.toUpperCase() + " - " + linodeRegion.id  ,
                   'name':linodeRegion.id}; 
-    regions.push(region);
+      regions.push(region);  
+    }
   }
-   
-  regions.sort(function(a, b){ return a.label &lt; b.label ? -1: 1 });
-  gs.info("After sort, regions is "+JSON.stringify(regions) );
-  
-  outputs.region = { data: regions }; // final properly formatted output               
+  regions.sort(function(a, b){ return a.label &lt; b.label ? -1: 1 });  
+  outputs.region = { data: regions };               
   
 })(inputs, outputs);
 </value>
@@ -444,7 +443,102 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=ab29b837db180850a5da3200ad961920^sys_idNOT INe729b837db180850a5da3200ad961924"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>ab29b837db180850a5da3200ad961920</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-18 15:22:38</sys_created_on>
+        <sys_id>4cc52842db280810d3333ecf9d9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-18 15:22:38</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ab29b837db180850a5da3200ad961920</table>
+        <value>{{step[559b8ec9-a63f-42c3-b6fb-8d37605d3310].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ab29b837db180850a5da3200ad961920^sys_idNOT IN44c52842db280810d3333ecf9d9619d5,e729b837db180850a5da3200ad961924"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Regions into Data">ab29b837db180850a5da3200ad961920</model>
+        <model_id>ab29b837db180850a5da3200ad961920</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ab29b837db180850a5da3200ad961920</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-18 15:22:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>44c52842db280810d3333ecf9d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-18 15:22:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -706,7 +800,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Get Images via REST</label>
+        <label>Get Regions via REST</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -716,7 +810,7 @@
         <sys_created_on>2019-10-11 16:49:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1e8630b3db180850a5da3200ad9619b2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -724,7 +818,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-17 02:57:03</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:22:37</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e8630b3db180850a5da3200ad9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -935,7 +1029,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Get Images via REST">1e8630b3db180850a5da3200ad9619b2</model>
+        <model display_value="Get Regions via REST">1e8630b3db180850a5da3200ad9619b2</model>
         <model_id>1e8630b3db180850a5da3200ad9619b2</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_1e8630b3db180850a5da3200ad9619b2</name>
@@ -997,7 +1091,7 @@
         <sys_created_on>2019-10-11 17:01:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ab29b837db180850a5da3200ad961920</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1005,7 +1099,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-14 16:41:47</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:23:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ab29b837db180850a5da3200ad961920"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1030,24 +1124,23 @@
         <sys_created_by>andrew.barnes</sys_created_by>
         <sys_created_on>2019-10-11 17:01:13</sys_created_on>
         <sys_id>7729b837db180850a5da3200ad961931</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-14 16:41:47</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:23:11</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var regions = [];
-  var payload = JSON.parse(inputs.responseBody);
-  for(var i=0; i&lt;payload.data.length; i++){
-    var linodeRegion = payload.data[i];
-    var region = {'label': linodeRegion.country.toUpperCase() + " - " + linodeRegion.id  ,
+  if (inputs.status == '200') {
+    var payload = JSON.parse(inputs.responseBody)
+    for(var i=0; i&lt;payload.data.length; i++){
+      var linodeRegion = payload.data[i];
+      var region = {'label': linodeRegion.country.toUpperCase() + " - " + linodeRegion.id  ,
                   'name':linodeRegion.id}; 
-    regions.push(region);
+      regions.push(region);  
+    }
   }
-   
-  regions.sort(function(a, b){ return a.label &lt; b.label ? -1: 1 });
-  gs.info("After sort, regions is "+JSON.stringify(regions) );
-  
-  outputs.region = { data: regions }; // final properly formatted output               
+  regions.sort(function(a, b){ return a.label &lt; b.label ? -1: 1 });  
+  outputs.region = { data: regions };               
   
 })(inputs, outputs);
 </value>
@@ -1090,7 +1183,102 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=ab29b837db180850a5da3200ad961920^sys_idNOT INe729b837db180850a5da3200ad961924"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>ab29b837db180850a5da3200ad961920</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-18 15:22:38</sys_created_on>
+        <sys_id>4cc52842db280810d3333ecf9d9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-18 15:22:38</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ab29b837db180850a5da3200ad961920</table>
+        <value>{{step[559b8ec9-a63f-42c3-b6fb-8d37605d3310].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ab29b837db180850a5da3200ad961920^sys_idNOT IN44c52842db280810d3333ecf9d9619d5,e729b837db180850a5da3200ad961924"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Regions into Data">ab29b837db180850a5da3200ad961920</model>
+        <model_id>ab29b837db180850a5da3200ad961920</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ab29b837db180850a5da3200ad961920</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-18 15:22:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>44c52842db280810d3333ecf9d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-18 15:22:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
