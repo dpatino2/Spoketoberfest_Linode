@@ -10,22 +10,22 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>get_vm_types</internal_name>
         <label_cache>[{"name":"{{step[0e75450e-8f9b-441f-9f82-8deae9286b83].response_body}}","label":"step➛Get Types via REST➛Response Body","type":"step","ref":""},{"name":"{{step[4360332c-4b48-4a0e-b30a-351f4b9c174a].type}}","label":"step➛Parse Types into Data➛type","type":"step","ref":""},{"name":"{{step[0e75450e-8f9b-441f-9f82-8deae9286b83].status_code}}","label":"step➛Get Types via REST➛Status Code","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>baabf7e8dba4c010d3333ecf9d961996</latest_snapshot>
+        <latest_snapshot>e00059a1db3c8810d3333ecf9d9619eb</latest_snapshot>
         <master_snapshot>7a35b2f7dbd00010a5da3200ad96190d</master_snapshot>
         <name>Get VM Types</name>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-11 19:22:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d1795dbbdbd88850d3333ecf9d961917</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name>Get VM Types</sys_name>
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d1795dbbdbd88850d3333ecf9d961917</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-18 15:25:01</sys_updated_on>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1490,14 +1490,14 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get VM Types">d1795dbbdbd88850d3333ecf9d961917</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e335b2f7dbd00010a5da3200ad9619c3","name":"plan"}}</plan>
-        <snapshot>baabf7e8dba4c010d3333ecf9d961996</snapshot>
+        <snapshot>e00059a1db3c8810d3333ecf9d9619eb</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-12 02:03:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>e335b2f7dbd00010a5da3200ad9619c3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1505,8 +1505,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joshua.nerius@snc</sys_updated_by>
-        <sys_updated_on>2019-10-14 15:06:25</sys_updated_on>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:03</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1519,7 +1519,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>get_vm_types</internal_name>
-        <label_cache>[{"name":"{{step[0e75450e-8f9b-441f-9f82-8deae9286b83].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[4360332c-4b48-4a0e-b30a-351f4b9c174a].type}}","label":"step➛Parse Types into Data➛type","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{step[0e75450e-8f9b-441f-9f82-8deae9286b83].response_body}}","label":"step➛Get Types via REST➛Response Body","type":"step","ref":""},{"name":"{{step[4360332c-4b48-4a0e-b30a-351f4b9c174a].type}}","label":"step➛Parse Types into Data➛type","type":"step","ref":""},{"name":"{{step[0e75450e-8f9b-441f-9f82-8deae9286b83].status_code}}","label":"step➛Get Types via REST➛Status Code","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Get VM Types</name>
         <outputs/>
@@ -1531,7 +1531,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>7a35b2f7dbd00010a5da3200ad96190d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1540,7 +1540,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-12 02:34:11</sys_updated_on>
+        <sys_updated_on>2019-10-29 15:26:00</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1589,15 +1589,15 @@
         <sys_created_on>2019-10-12 02:03:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8335b2f7dbd00010a5da3200ad961926</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joshua.nerius@snc</sys_updated_by>
-        <sys_updated_on>2019-10-14 15:06:23</sys_updated_on>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8335b2f7dbd00010a5da3200ad961926"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1622,21 +1622,22 @@
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-12 02:03:12</sys_created_on>
         <sys_id>cf35b2f7dbd00010a5da3200ad961934</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>joshua.nerius@snc</sys_updated_by>
-        <sys_updated_on>2019-10-14 15:06:23</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var types = [];
+  if (inputs.status == '200') {
   var payload = JSON.parse(inputs.responseBody);
-  for(var i=0; i&lt;payload.data.length; i++){
-    var linodeType = payload.data[i];
-    var type = { "label": linodeType.label,
-                  "name":linodeType.id
-                 };
-    types.push(type);
+    for(var i=0; i&lt;payload.data.length; i++){
+      var linodeType = payload.data[i];
+      var type = { "label": linodeType.label,
+                    "name":linodeType.id
+                   };
+      types.push(type);
+    }
   }
-   
   outputs.type = { data: types }; // final properly formatted output
   
   gs.info("JSON = "+ JSON.stringify(outputs.type) );
@@ -1681,7 +1682,19 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=8335b2f7dbd00010a5da3200ad961926^sys_idNOT IN8f35b2f7dbd00010a5da3200ad961928"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>8335b2f7dbd00010a5da3200ad961926</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-29 15:26:01</sys_created_on>
+        <sys_id>f00099a1db3c8810d3333ecf9d961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8335b2f7dbd00010a5da3200ad961926</table>
+        <value>{{step[0e75450e-8f9b-441f-9f82-8deae9286b83].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8335b2f7dbd00010a5da3200ad961926^sys_idNOT IN8f35b2f7dbd00010a5da3200ad961928,b80099a1db3c8810d3333ecf9d961955"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1754,6 +1767,89 @@
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-12 02:03:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Types into Data">8335b2f7dbd00010a5da3200ad961926</model>
+        <model_id>8335b2f7dbd00010a5da3200ad961926</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8335b2f7dbd00010a5da3200ad961926</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-29 15:26:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b80099a1db3c8810d3333ecf9d961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1856,7 +1952,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>REST step</label>
+        <label>Get Types via REST</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -1866,7 +1962,7 @@
         <sys_created_on>2019-10-12 02:03:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fe35b2f7dbd00010a5da3200ad96190e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1874,7 +1970,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-12 02:03:12</sys_updated_on>
+        <sys_updated_on>2019-10-29 15:26:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fe35b2f7dbd00010a5da3200ad96190e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2085,7 +2181,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">fe35b2f7dbd00010a5da3200ad96190e</model>
+        <model display_value="Get Types via REST">fe35b2f7dbd00010a5da3200ad96190e</model>
         <model_id>fe35b2f7dbd00010a5da3200ad96190e</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_fe35b2f7dbd00010a5da3200ad96190e</name>
@@ -2168,7 +2264,7 @@
         <hint/>
         <internal_link/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>output</label>
+        <label>Output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
         <model display_value="Get VM Types">7a35b2f7dbd00010a5da3200ad96190d</model>
@@ -2195,15 +2291,15 @@
         <sys_created_on>2019-10-14 15:06:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>83abf7e8dba4c010d3333ecf9d9619f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joshua.nerius@snc</sys_updated_by>
-        <sys_updated_on>2019-10-14 15:06:23</sys_updated_on>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2234,15 +2330,15 @@
         <sys_created_on>2019-10-12 02:03:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8335b2f7dbd00010a5da3200ad961926</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joshua.nerius@snc</sys_updated_by>
-        <sys_updated_on>2019-10-14 15:06:23</sys_updated_on>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8335b2f7dbd00010a5da3200ad961926"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2267,21 +2363,22 @@
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-12 02:03:12</sys_created_on>
         <sys_id>cf35b2f7dbd00010a5da3200ad961934</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>joshua.nerius@snc</sys_updated_by>
-        <sys_updated_on>2019-10-14 15:06:23</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var types = [];
+  if (inputs.status == '200') {
   var payload = JSON.parse(inputs.responseBody);
-  for(var i=0; i&lt;payload.data.length; i++){
-    var linodeType = payload.data[i];
-    var type = { "label": linodeType.label,
-                  "name":linodeType.id
-                 };
-    types.push(type);
+    for(var i=0; i&lt;payload.data.length; i++){
+      var linodeType = payload.data[i];
+      var type = { "label": linodeType.label,
+                    "name":linodeType.id
+                   };
+      types.push(type);
+    }
   }
-   
   outputs.type = { data: types }; // final properly formatted output
   
   gs.info("JSON = "+ JSON.stringify(outputs.type) );
@@ -2326,7 +2423,19 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=8335b2f7dbd00010a5da3200ad961926^sys_idNOT IN8f35b2f7dbd00010a5da3200ad961928"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>8335b2f7dbd00010a5da3200ad961926</id>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-29 15:26:01</sys_created_on>
+        <sys_id>f00099a1db3c8810d3333ecf9d961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8335b2f7dbd00010a5da3200ad961926</table>
+        <value>{{step[0e75450e-8f9b-441f-9f82-8deae9286b83].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8335b2f7dbd00010a5da3200ad961926^sys_idNOT IN8f35b2f7dbd00010a5da3200ad961928,b80099a1db3c8810d3333ecf9d961955"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2399,6 +2508,89 @@
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-12 02:03:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Types into Data">8335b2f7dbd00010a5da3200ad961926</model>
+        <model_id>8335b2f7dbd00010a5da3200ad961926</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8335b2f7dbd00010a5da3200ad961926</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>dave.slusher</sys_created_by>
+        <sys_created_on>2019-10-29 15:26:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b80099a1db3c8810d3333ecf9d961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2501,7 +2693,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>REST step</label>
+        <label>Get Types via REST</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -2511,7 +2703,7 @@
         <sys_created_on>2019-10-12 02:03:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fe35b2f7dbd00010a5da3200ad96190e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2519,7 +2711,7 @@
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
-        <sys_updated_on>2019-10-12 02:03:12</sys_updated_on>
+        <sys_updated_on>2019-10-29 15:26:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fe35b2f7dbd00010a5da3200ad96190e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2730,7 +2922,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">fe35b2f7dbd00010a5da3200ad96190e</model>
+        <model display_value="Get Types via REST">fe35b2f7dbd00010a5da3200ad96190e</model>
         <model_id>fe35b2f7dbd00010a5da3200ad96190e</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_fe35b2f7dbd00010a5da3200ad96190e</name>
@@ -2779,7 +2971,7 @@
         <element>output</element>
         <help/>
         <hint/>
-        <label>output</label>
+        <label>Output</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_7a35b2f7dbd00010a5da3200ad96190d</name>
         <plural/>
@@ -2788,15 +2980,15 @@
         <sys_created_on>2019-10-14 15:06:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4babf7e8dba4c010d3333ecf9d9619f8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Output</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7a35b2f7dbd00010a5da3200ad96190d_output_en</sys_update_name>
-        <sys_updated_by>joshua.nerius@snc</sys_updated_by>
-        <sys_updated_on>2019-10-14 15:06:23</sys_updated_on>
+        <sys_updated_by>dave.slusher</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:26:01</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
