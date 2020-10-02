@@ -10,13 +10,11 @@
         <sys_class_name>sys_openapi_operation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 20:47:21</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ccd92d69dbdc4050d3333ecf9d96191b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Delete OAuth Client</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_openapi_operation_ccd92d69dbdc4050d3333ecf9d96191b</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>

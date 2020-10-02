@@ -16,13 +16,13 @@
         <latest_snapshot>716055e1db3c8810d3333ecf9d9619fa</latest_snapshot>
         <master_snapshot>ca6095e1db3c8810d3333ecf9d961941</master_snapshot>
         <name>Get VM Statistics</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:49:49</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>ef29ba29db60c410d3333ecf9d961953</sys_id>
         <sys_mod_count>9</sys_mod_count>
@@ -30,7 +30,6 @@
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ef29ba29db60c410d3333ecf9d961953</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -38,6 +37,7 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef29ba29db60c410d3333ecf9d961953"/>
     <sys_variable_value action="delete_multiple" query="document_key=ef29ba29db60c410d3333ecf9d961953"/>
     <sys_element_mapping action="delete_multiple" query="id=ef29ba29db60c410d3333ecf9d961953"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -69,13 +69,11 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:17</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c13a36e9db60c410d3333ecf9d961922</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -213,13 +211,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:17</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>013a36e9db60c410d3333ecf9d961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -297,13 +293,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:17</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cd3a36e9db60c410d3333ecf9d96192a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -335,13 +329,11 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:16</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cd3a36e9db60c410d3333ecf9d961906</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -709,13 +701,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:16</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>413a36e9db60c410d3333ecf9d96190f</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -793,13 +783,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:16</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>b83af2e9db60c410d3333ecf9d9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -879,13 +867,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:17</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9d3a36e9db60c410d3333ecf9d961935</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -918,13 +904,11 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:17</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c13a36e9db60c410d3333ecf9d961922</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1062,13 +1046,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:17</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>013a36e9db60c410d3333ecf9d961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1146,13 +1128,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:17</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cd3a36e9db60c410d3333ecf9d96192a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1184,13 +1164,11 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:16</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cd3a36e9db60c410d3333ecf9d961906</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1558,13 +1536,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:16</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>413a36e9db60c410d3333ecf9d96190f</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1592,13 +1568,11 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:16</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>013af2e9db60c410d3333ecf9d9619d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Linode ID</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ef29ba29db60c410d3333ecf9d961953_linodeid_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1618,13 +1592,11 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-17 12:54:17</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>513a36e9db60c410d3333ecf9d961947</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Statistics</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ef29ba29db60c410d3333ecf9d961953_statistics_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1640,7 +1612,6 @@
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:47</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>3260d5e1db3c8810d3333ecf9d96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -1648,7 +1619,6 @@
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1668,13 +1638,13 @@
         <label_cache>[{"name":"{{action.linodeid}}","label":"action➛Linode ID","type":"action","ref":""},{"name":"{{step[90c79dd4-e989-467e-a42c-8f6898640253].sn_auth_token}}","label":"step➛Get Statistics via REST➛Credential Value","type":"step","ref":""},{"name":"{{step[90c79dd4-e989-467e-a42c-8f6898640253].response_body}}","label":"step➛Get Statistics via REST➛Response Body","type":"step","ref":""},{"name":"{{step[6a875a18-2687-4842-966e-30627e9702d3].statistics}}","label":"step➛Parse statistics➛statistics","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Get VM Statistics</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <parent_action display_value="Get VM Statistics">ef29ba29db60c410d3333ecf9d961953</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>ca6095e1db3c8810d3333ecf9d961941</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -1682,7 +1652,6 @@
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1690,6 +1659,7 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca6095e1db3c8810d3333ecf9d961941"/>
     <sys_variable_value action="delete_multiple" query="document_key=ca6095e1db3c8810d3333ecf9d961941"/>
     <sys_element_mapping action="delete_multiple" query="id=ca6095e1db3c8810d3333ecf9d961941"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1721,13 +1691,11 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c26095e1db3c8810d3333ecf9d961949</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2095,13 +2063,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c26095e1db3c8810d3333ecf9d96194f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2133,13 +2099,11 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c26095e1db3c8810d3333ecf9d961961</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2277,13 +2241,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ce6095e1db3c8810d3333ecf9d961963</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2361,13 +2323,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:45</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>de6095e1db3c8810d3333ecf9d961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2445,13 +2405,11 @@
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0e6095e1db3c8810d3333ecf9d961942</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2531,13 +2489,11 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:45</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9e6095e1db3c8810d3333ecf9d961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2570,13 +2526,11 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c26095e1db3c8810d3333ecf9d961949</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2944,13 +2898,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c26095e1db3c8810d3333ecf9d96194f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2982,13 +2934,11 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c26095e1db3c8810d3333ecf9d961961</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -3126,13 +3076,11 @@
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ce6095e1db3c8810d3333ecf9d961963</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -3210,13 +3158,11 @@
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:45</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>de6095e1db3c8810d3333ecf9d961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -3244,13 +3190,11 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c66095e1db3c8810d3333ecf9d961947</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Linode ID</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ca6095e1db3c8810d3333ecf9d961941_linodeid_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -3270,13 +3214,11 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:27:45</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>5a6095e1db3c8810d3333ecf9d961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Statistics</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ca6095e1db3c8810d3333ecf9d961941_statistics_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>

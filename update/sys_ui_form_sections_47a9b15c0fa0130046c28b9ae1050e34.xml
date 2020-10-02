@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_form_sections form_id="6ba845a9dbf88810d3333ecf9d9619fe" sys_domain="global" table="connection_attributes" version="3">
+    <sys_ui_form_sections form_id="47a9b15c0fa0130046c28b9ae1050e34" sys_domain="global" table="connection_attributes" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>dave.slusher</sys_created_by>
@@ -9,8 +9,8 @@
             <sys_id>7ba885a9dbf88810d3333ecf9d961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6ba845a9dbf88810d3333ecf9d9619fe</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b3a885a9dbf88810d3333ecf9d96190d</sys_ui_section>
+            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">47a9b15c0fa0130046c28b9ae1050e34</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">43a9b15c0fa0130046c28b9ae1050e3a</sys_ui_section>
             <sys_updated_by>dave.slusher</sys_updated_by>
             <sys_updated_on>2019-10-29 14:53:59</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>3ba885a9dbf88810d3333ecf9d961919</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6ba845a9dbf88810d3333ecf9d9619fe</sys_ui_form>
-            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">7fa885a9dbf88810d3333ecf9d961913</sys_ui_section>
+            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">47a9b15c0fa0130046c28b9ae1050e34</sys_ui_form>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">47a9b15c0fa0130046c28b9ae1050e3d</sys_ui_section>
             <sys_updated_by>dave.slusher</sys_updated_by>
             <sys_updated_on>2019-10-29 14:53:59</sys_updated_on>
         </sys_ui_form_section>
@@ -37,8 +37,8 @@
             <sys_id>e3a885a9dbf88810d3333ecf9d961905</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6ba845a9dbf88810d3333ecf9d9619fe</sys_ui_form>
-            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">27a885a9dbf88810d3333ecf9d961901</sys_ui_section>
+            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">47a9b15c0fa0130046c28b9ae1050e34</sys_ui_form>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">cfa9b15c0fa0130046c28b9ae1050e35</sys_ui_section>
             <sys_updated_by>dave.slusher</sys_updated_by>
             <sys_updated_on>2019-10-29 14:53:59</sys_updated_on>
         </sys_ui_form_section>
@@ -51,8 +51,8 @@
             <sys_id>a3a885a9dbf88810d3333ecf9d961909</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6ba845a9dbf88810d3333ecf9d9619fe</sys_ui_form>
-            <sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">e7a885a9dbf88810d3333ecf9d961905</sys_ui_section>
+            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">47a9b15c0fa0130046c28b9ae1050e34</sys_ui_form>
+            <sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">47a9b15c0fa0130046c28b9ae1050e37</sys_ui_section>
             <sys_updated_by>dave.slusher</sys_updated_by>
             <sys_updated_on>2019-10-29 14:53:59</sys_updated_on>
         </sys_ui_form_section>
@@ -65,8 +65,8 @@
             <sys_id>bfa885a9dbf88810d3333ecf9d96190c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6ba845a9dbf88810d3333ecf9d9619fe</sys_ui_form>
-            <sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">a7a885a9dbf88810d3333ecf9d961909</sys_ui_section>
+            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">47a9b15c0fa0130046c28b9ae1050e34</sys_ui_form>
+            <sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">0fa9b15c0fa0130046c28b9ae1050e38</sys_ui_section>
             <sys_updated_by>dave.slusher</sys_updated_by>
             <sys_updated_on>2019-10-29 14:53:59</sys_updated_on>
         </sys_ui_form_section>
@@ -79,8 +79,8 @@
             <sys_id>b7a885a9dbf88810d3333ecf9d96191d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">6ba845a9dbf88810d3333ecf9d9619fe</sys_ui_form>
-            <sys_ui_section caption="Default Value" display_value="Default Value" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3fa885a9dbf88810d3333ecf9d961919</sys_ui_section>
+            <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">47a9b15c0fa0130046c28b9ae1050e34</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="connection_attributes" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">43a9b15c0fa0130046c28b9ae1050e40</sys_ui_section>
             <sys_updated_by>dave.slusher</sys_updated_by>
             <sys_updated_on>2019-10-29 14:54:00</sys_updated_on>
         </sys_ui_form_section>
@@ -90,18 +90,16 @@
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>dave.slusher</sys_created_by>
             <sys_created_on>2019-10-29 14:53:59</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6ba845a9dbf88810d3333ecf9d9619fe</sys_id>
+            <sys_id>47a9b15c0fa0130046c28b9ae1050e34</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>connection_attributes</sys_name>
             <sys_overrides/>
             <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-            <sys_update_name>sys_ui_form_sections_6ba845a9dbf88810d3333ecf9d9619fe</sys_update_name>
+            <sys_update_name>sys_ui_form_sections_47a9b15c0fa0130046c28b9ae1050e34</sys_update_name>
             <sys_updated_by>dave.slusher</sys_updated_by>
             <sys_updated_on>2019-10-29 14:53:59</sys_updated_on>
             <sys_user/>

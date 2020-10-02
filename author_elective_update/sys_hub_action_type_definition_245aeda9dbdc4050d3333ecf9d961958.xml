@@ -37,9 +37,9 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_variable_value action="delete_multiple" query="document_key=245aeda9dbdc4050d3333ecf9d961958"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=245aeda9dbdc4050d3333ecf9d961958^sys_idNOT IN3b2ced2ddbdc4050d3333ecf9d961919"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=245aeda9dbdc4050d3333ecf9d961958"/>
+    <sys_hub_step_instance action="DELETE" query="action=245aeda9dbdc4050d3333ecf9d961958^sys_idNOT IN3b2ced2ddbdc4050d3333ecf9d961919"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="List Linodes">245aeda9dbdc4050d3333ecf9d961958</action>
         <cid>918097ae-3452-47db-8bd7-397592d62574</cid>
         <extended_inputs/>
@@ -67,8 +67,8 @@
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-04 20:57:43</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=3b2ced2ddbdc4050d3333ecf9d961919"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=3b2ced2ddbdc4050d3333ecf9d961919"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>10</order>
@@ -82,7 +82,7 @@
         <value>from_openapi</value>
         <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>12</order>
@@ -96,7 +96,7 @@
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>20</order>
@@ -110,7 +110,7 @@
         <value>/linode/instances</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>15</order>
@@ -124,7 +124,7 @@
         <value>https://api.linode.com/v4/</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>10</order>
@@ -138,7 +138,7 @@
         <value>8dea29e9dbdc4050d3333ecf9d961986</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>15</order>
@@ -152,7 +152,7 @@
         <value>fec9e169dbdc4050d3333ecf9d961920</value>
         <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>13</order>
@@ -166,7 +166,7 @@
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>400</order>
@@ -180,7 +180,7 @@
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
         <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>100</order>
@@ -194,7 +194,7 @@
         <value>{"page":{"name":"page","allowEmptyValue":false,"allowReserved":false,"explode":true,"required":false,"style":"form","schema":{"format":"int32","glideType":"integer","deprecated":false,"name":"page6162857246","default":"1.0","type":"integer"}},"page_size":{"name":"page_size","allowEmptyValue":false,"allowReserved":false,"explode":true,"required":false,"style":"form","schema":{"format":"int32","glideType":"integer","deprecated":false,"name":"page_size3669447286","default":"100.0","type":"integer"}}}</value>
         <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>16</order>
@@ -208,7 +208,7 @@
         <value>81d96d69dbdc4050d3333ecf9d961903</value>
         <variable display_value="">29c75782c7822300a150effeeb976338</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>25</order>
@@ -222,7 +222,7 @@
         <value>{}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>30</order>
@@ -236,8 +236,8 @@
         <value>{}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=3b2ced2ddbdc4050d3333ecf9d961919"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=3b2ced2ddbdc4050d3333ecf9d961919"/>
+    <sys_element_mapping action="DELETE">
         <field>api_operation</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -249,7 +249,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>api_source</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -261,7 +261,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -273,7 +273,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -285,7 +285,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>build_request</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -297,7 +297,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -309,7 +309,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -321,7 +321,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -333,7 +333,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"Accept","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Bearer {{step[918097ae-3452-47db-8bd7-397592d62574].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -345,7 +345,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"page","value":"{{action.page}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"page_size","value":"{{action.page_size}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -357,7 +357,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>rest_metadata</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -369,7 +369,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>retry_policy</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -381,8 +381,8 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=3b2ced2ddbdc4050d3333ecf9d961919^sys_idNOT IN332ced2ddbdc4050d3333ecf9d961921"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=3b2ced2ddbdc4050d3333ecf9d961919^sys_idNOT IN332ced2ddbdc4050d3333ecf9d961921"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -465,8 +465,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=245aeda9dbdc4050d3333ecf9d961958^sys_idNOT IN732c292ddbdc4050d3333ecf9d961934,b72ced2ddbdc4050d3333ecf9d961913"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="DELETE" query="model=245aeda9dbdc4050d3333ecf9d961958^sys_idNOT IN732c292ddbdc4050d3333ecf9d961934,b72ced2ddbdc4050d3333ecf9d961913"/>
+    <sys_hub_action_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -549,7 +549,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -632,8 +632,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_step_instance action="delete_multiple" query="action=245aeda9dbdc4050d3333ecf9d961958^sys_idNOT IN3b2ced2ddbdc4050d3333ecf9d961919"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=245aeda9dbdc4050d3333ecf9d961958^sys_idNOT IN3b2ced2ddbdc4050d3333ecf9d961919"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="List Linodes">245aeda9dbdc4050d3333ecf9d961958</action>
         <cid>918097ae-3452-47db-8bd7-397592d62574</cid>
         <extended_inputs/>
@@ -661,8 +661,8 @@
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-04 20:57:43</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=3b2ced2ddbdc4050d3333ecf9d961919"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=3b2ced2ddbdc4050d3333ecf9d961919"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>10</order>
@@ -676,7 +676,7 @@
         <value>from_openapi</value>
         <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>12</order>
@@ -690,7 +690,7 @@
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>20</order>
@@ -704,7 +704,7 @@
         <value>/linode/instances</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>15</order>
@@ -718,7 +718,7 @@
         <value>https://api.linode.com/v4/</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>10</order>
@@ -732,7 +732,7 @@
         <value>8dea29e9dbdc4050d3333ecf9d961986</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>15</order>
@@ -746,7 +746,7 @@
         <value>fec9e169dbdc4050d3333ecf9d961920</value>
         <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>13</order>
@@ -760,7 +760,7 @@
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>400</order>
@@ -774,7 +774,7 @@
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
         <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>100</order>
@@ -788,7 +788,7 @@
         <value>{"page":{"name":"page","allowEmptyValue":false,"allowReserved":false,"explode":true,"required":false,"style":"form","schema":{"format":"int32","glideType":"integer","deprecated":false,"name":"page6162857246","default":"1.0","type":"integer"}},"page_size":{"name":"page_size","allowEmptyValue":false,"allowReserved":false,"explode":true,"required":false,"style":"form","schema":{"format":"int32","glideType":"integer","deprecated":false,"name":"page_size3669447286","default":"100.0","type":"integer"}}}</value>
         <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>16</order>
@@ -802,7 +802,7 @@
         <value>81d96d69dbdc4050d3333ecf9d961903</value>
         <variable display_value="">29c75782c7822300a150effeeb976338</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>25</order>
@@ -816,7 +816,7 @@
         <value>{}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>3b2ced2ddbdc4050d3333ecf9d961919</document_key>
         <order>30</order>
@@ -830,8 +830,8 @@
         <value>{}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=3b2ced2ddbdc4050d3333ecf9d961919"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=3b2ced2ddbdc4050d3333ecf9d961919"/>
+    <sys_element_mapping action="DELETE">
         <field>api_operation</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -843,7 +843,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>api_source</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -855,7 +855,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -867,7 +867,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -879,7 +879,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>build_request</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -891,7 +891,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -903,7 +903,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -915,7 +915,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -927,7 +927,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"Accept","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Bearer {{step[918097ae-3452-47db-8bd7-397592d62574].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -939,7 +939,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"page","value":"{{action.page}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"page_size","value":"{{action.page_size}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -951,7 +951,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>rest_metadata</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -963,7 +963,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>retry_policy</field>
         <id>3b2ced2ddbdc4050d3333ecf9d961919</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -975,8 +975,8 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=3b2ced2ddbdc4050d3333ecf9d961919^sys_idNOT IN332ced2ddbdc4050d3333ecf9d961921"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=3b2ced2ddbdc4050d3333ecf9d961919^sys_idNOT IN332ced2ddbdc4050d3333ecf9d961921"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1059,8 +1059,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_245aeda9dbdc4050d3333ecf9d961958^sys_idNOT IN3b2ced2ddbdc4050d3333ecf9d961912,fb2ced2ddbdc4050d3333ecf9d961917"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_245aeda9dbdc4050d3333ecf9d961958^sys_idNOT IN3b2ced2ddbdc4050d3333ecf9d961912,fb2ced2ddbdc4050d3333ecf9d961917"/>
+    <sys_documentation action="DELETE">
         <element>page</element>
         <help/>
         <hint/>
@@ -1085,7 +1085,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>page_size</element>
         <help/>
         <hint/>
@@ -1160,7 +1160,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-18 13:31:32</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
         <sys_id>62a83f0d07b14734b33c58928400e284</sys_id>
         <sys_metadata>245aeda9dbdc4050d3333ecf9d961958</sys_metadata>
@@ -1169,7 +1168,6 @@
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_scope_delete display_value="">3dabd0b1110c48c48804fb78dc0107f1</sys_scope_delete>
         <sys_update_name>sys_hub_action_type_definition_245aeda9dbdc4050d3333ecf9d961958</sys_update_name>

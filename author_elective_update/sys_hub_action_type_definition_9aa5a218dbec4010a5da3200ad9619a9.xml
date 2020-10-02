@@ -38,9 +38,9 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_variable_value action="delete_multiple" query="document_key=9aa5a218dbec4010a5da3200ad9619a9"/>
-    <sys_element_mapping action="delete_multiple" query="id=9aa5a218dbec4010a5da3200ad9619a9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=9aa5a218dbec4010a5da3200ad9619a9"/>
+    <sys_element_mapping action="DELETE" query="id=9aa5a218dbec4010a5da3200ad9619a9"/>
+    <sys_element_mapping action="DELETE">
         <field>output</field>
         <id>9aa5a218dbec4010a5da3200ad9619a9</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -52,7 +52,7 @@
         <table>var__m_sys_hub_action_output_9aa5a218dbec4010a5da3200ad9619a9</table>
         <value>{{step[c65f2bad-226d-4acb-8cf4-a775b449117a].type}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>variable</field>
         <id>9aa5a218dbec4010a5da3200ad9619a9</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -64,8 +64,8 @@
         <table>var__m_sys_hub_action_output_9aa5a218dbec4010a5da3200ad9619a9</table>
         <value>{{step[c65f2bad-226d-4acb-8cf4-a775b449117a].type}}</value>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=9aa5a218dbec4010a5da3200ad9619a9^sys_idNOT IN40566e18dbec4010a5da3200ad961963,4c566e18dbec4010a5da3200ad96193d"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=9aa5a218dbec4010a5da3200ad9619a9^sys_idNOT IN40566e18dbec4010a5da3200ad961963,4c566e18dbec4010a5da3200ad96193d"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Get VM Types V2">9aa5a218dbec4010a5da3200ad9619a9</action>
         <cid>c65f2bad-226d-4acb-8cf4-a775b449117a</cid>
         <extended_inputs/>
@@ -93,8 +93,8 @@
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-13 14:23:58</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=40566e18dbec4010a5da3200ad961963"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=40566e18dbec4010a5da3200ad961963"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>40566e18dbec4010a5da3200ad961963</document_key>
         <order>600</order>
@@ -123,7 +123,7 @@
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>40566e18dbec4010a5da3200ad961963</document_key>
         <order>400</order>
@@ -137,8 +137,8 @@
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=40566e18dbec4010a5da3200ad961963"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=40566e18dbec4010a5da3200ad961963"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>40566e18dbec4010a5da3200ad961963</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -150,7 +150,7 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>responseBod</field>
         <id>40566e18dbec4010a5da3200ad961963</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -162,7 +162,7 @@
         <table>var__m_sys_hub_step_ext_input_40566e18dbec4010a5da3200ad961963</table>
         <value>{{step[13e93506-3c3a-4631-967a-9daa3967f6da].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>responseBody</field>
         <id>40566e18dbec4010a5da3200ad961963</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -174,7 +174,7 @@
         <table>var__m_sys_hub_step_ext_input_40566e18dbec4010a5da3200ad961963</table>
         <value>{{step[13e93506-3c3a-4631-967a-9daa3967f6da].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>40566e18dbec4010a5da3200ad961963</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -186,8 +186,8 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=40566e18dbec4010a5da3200ad961963^sys_idNOT IN66a6e258dbec4010a5da3200ad961986"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=40566e18dbec4010a5da3200ad961963^sys_idNOT IN66a6e258dbec4010a5da3200ad961986"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -270,8 +270,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=40566e18dbec4010a5da3200ad961963^sys_idNOT IN80566e18dbec4010a5da3200ad96196b"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=40566e18dbec4010a5da3200ad961963^sys_idNOT IN80566e18dbec4010a5da3200ad96196b"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -354,7 +354,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Get VM Types V2">9aa5a218dbec4010a5da3200ad9619a9</action>
         <cid>13e93506-3c3a-4631-967a-9daa3967f6da</cid>
         <extended_inputs/>
@@ -381,8 +381,8 @@
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-13 14:14:58</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=4c566e18dbec4010a5da3200ad96193d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=4c566e18dbec4010a5da3200ad96193d"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>10</order>
@@ -396,7 +396,7 @@
         <value>from_openapi</value>
         <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>12</order>
@@ -410,7 +410,7 @@
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>20</order>
@@ -424,7 +424,7 @@
         <value>/linode/types</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>15</order>
@@ -438,7 +438,7 @@
         <value>https://api.linode.com/v4/</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>10</order>
@@ -452,7 +452,7 @@
         <value>8dea29e9dbdc4050d3333ecf9d961986</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>15</order>
@@ -466,7 +466,7 @@
         <value>fec9e169dbdc4050d3333ecf9d961920</value>
         <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>13</order>
@@ -480,7 +480,7 @@
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>400</order>
@@ -494,7 +494,7 @@
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
         <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>100</order>
@@ -508,7 +508,7 @@
         <value>{}</value>
         <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>16</order>
@@ -522,7 +522,7 @@
         <value>eed9ad69dbdc4050d3333ecf9d961989</value>
         <variable display_value="">29c75782c7822300a150effeeb976338</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>25</order>
@@ -536,7 +536,7 @@
         <value>{"type":"ADV_NV","value":[]}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>30</order>
@@ -550,8 +550,8 @@
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=4c566e18dbec4010a5da3200ad96193d^sys_idNOT IN04566e18dbec4010a5da3200ad961945"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=4c566e18dbec4010a5da3200ad96193d^sys_idNOT IN04566e18dbec4010a5da3200ad961945"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -634,8 +634,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_output action="delete_multiple" query="model=9aa5a218dbec4010a5da3200ad9619a9^sys_idNOT INa5ab2e9cdbec4010a5da3200ad96190c"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE" query="model=9aa5a218dbec4010a5da3200ad9619a9^sys_idNOT INa5ab2e9cdbec4010a5da3200ad96190c"/>
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -720,8 +720,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=9aa5a218dbec4010a5da3200ad9619a9^sys_idNOT IN40566e18dbec4010a5da3200ad961963,4c566e18dbec4010a5da3200ad96193d"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=9aa5a218dbec4010a5da3200ad9619a9^sys_idNOT IN40566e18dbec4010a5da3200ad961963,4c566e18dbec4010a5da3200ad96193d"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Get VM Types V2">9aa5a218dbec4010a5da3200ad9619a9</action>
         <cid>c65f2bad-226d-4acb-8cf4-a775b449117a</cid>
         <extended_inputs/>
@@ -749,8 +749,8 @@
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-13 14:23:58</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=40566e18dbec4010a5da3200ad961963"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=40566e18dbec4010a5da3200ad961963"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>40566e18dbec4010a5da3200ad961963</document_key>
         <order>600</order>
@@ -779,7 +779,7 @@
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>40566e18dbec4010a5da3200ad961963</document_key>
         <order>400</order>
@@ -793,8 +793,8 @@
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=40566e18dbec4010a5da3200ad961963"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=40566e18dbec4010a5da3200ad961963"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>40566e18dbec4010a5da3200ad961963</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -806,7 +806,7 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>responseBod</field>
         <id>40566e18dbec4010a5da3200ad961963</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -818,7 +818,7 @@
         <table>var__m_sys_hub_step_ext_input_40566e18dbec4010a5da3200ad961963</table>
         <value>{{step[13e93506-3c3a-4631-967a-9daa3967f6da].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>responseBody</field>
         <id>40566e18dbec4010a5da3200ad961963</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -830,7 +830,7 @@
         <table>var__m_sys_hub_step_ext_input_40566e18dbec4010a5da3200ad961963</table>
         <value>{{step[13e93506-3c3a-4631-967a-9daa3967f6da].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>40566e18dbec4010a5da3200ad961963</id>
         <sys_created_by>dave.slusher</sys_created_by>
@@ -842,8 +842,8 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=40566e18dbec4010a5da3200ad961963^sys_idNOT IN66a6e258dbec4010a5da3200ad961986"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=40566e18dbec4010a5da3200ad961963^sys_idNOT IN66a6e258dbec4010a5da3200ad961986"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -926,8 +926,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=40566e18dbec4010a5da3200ad961963^sys_idNOT IN80566e18dbec4010a5da3200ad96196b"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=40566e18dbec4010a5da3200ad961963^sys_idNOT IN80566e18dbec4010a5da3200ad96196b"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1010,7 +1010,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Get VM Types V2">9aa5a218dbec4010a5da3200ad9619a9</action>
         <cid>13e93506-3c3a-4631-967a-9daa3967f6da</cid>
         <extended_inputs/>
@@ -1037,8 +1037,8 @@
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-13 14:14:58</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=4c566e18dbec4010a5da3200ad96193d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=4c566e18dbec4010a5da3200ad96193d"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>10</order>
@@ -1052,7 +1052,7 @@
         <value>from_openapi</value>
         <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>12</order>
@@ -1066,7 +1066,7 @@
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>20</order>
@@ -1080,7 +1080,7 @@
         <value>/linode/types</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>15</order>
@@ -1094,7 +1094,7 @@
         <value>https://api.linode.com/v4/</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>10</order>
@@ -1108,7 +1108,7 @@
         <value>8dea29e9dbdc4050d3333ecf9d961986</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>15</order>
@@ -1122,7 +1122,7 @@
         <value>fec9e169dbdc4050d3333ecf9d961920</value>
         <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>13</order>
@@ -1136,7 +1136,7 @@
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>400</order>
@@ -1150,7 +1150,7 @@
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
         <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>100</order>
@@ -1164,7 +1164,7 @@
         <value>{}</value>
         <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>16</order>
@@ -1178,7 +1178,7 @@
         <value>eed9ad69dbdc4050d3333ecf9d961989</value>
         <variable display_value="">29c75782c7822300a150effeeb976338</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>25</order>
@@ -1192,7 +1192,7 @@
         <value>{"type":"ADV_NV","value":[]}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>4c566e18dbec4010a5da3200ad96193d</document_key>
         <order>30</order>
@@ -1206,8 +1206,8 @@
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=4c566e18dbec4010a5da3200ad96193d^sys_idNOT IN04566e18dbec4010a5da3200ad961945"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=4c566e18dbec4010a5da3200ad96193d^sys_idNOT IN04566e18dbec4010a5da3200ad961945"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1290,8 +1290,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9aa5a218dbec4010a5da3200ad9619a9^sys_idNOT IN69ab2e9cdbec4010a5da3200ad961910"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_9aa5a218dbec4010a5da3200ad9619a9^sys_idNOT IN69ab2e9cdbec4010a5da3200ad961910"/>
+    <sys_documentation action="DELETE">
         <element>output</element>
         <help/>
         <hint/>
@@ -1411,7 +1411,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-15 12:36:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
         <sys_id>5d5c8d6d62ef4e6cb1c4b4e1a065ef59</sys_id>
         <sys_metadata>9aa5a218dbec4010a5da3200ad9619a9</sys_metadata>
@@ -1420,7 +1419,6 @@
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_scope_delete display_value="">3dabd0b1110c48c48804fb78dc0107f1</sys_scope_delete>
         <sys_update_name>sys_hub_action_type_definition_9aa5a218dbec4010a5da3200ad9619a9</sys_update_name>

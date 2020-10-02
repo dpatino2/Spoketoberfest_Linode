@@ -16,13 +16,13 @@
         <latest_snapshot>1620dda1db3c8810d3333ecf9d96198e</latest_snapshot>
         <master_snapshot>3e2011e1db3c8810d3333ecf9d96195e</master_snapshot>
         <name>Create VM</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 20:42:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0798e9e5dbdc4050d3333ecf9d9619e9</sys_id>
         <sys_mod_count>42</sys_mod_count>
@@ -30,7 +30,6 @@
         <sys_overrides/>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_0798e9e5dbdc4050d3333ecf9d9619e9</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -38,6 +37,7 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0798e9e5dbdc4050d3333ecf9d9619e9"/>
     <sys_variable_value action="delete_multiple" query="document_key=0798e9e5dbdc4050d3333ecf9d9619e9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -119,13 +119,11 @@
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>30203161db108050d3333ecf9d961959</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -266,13 +264,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3c203161db108050d3333ecf9d96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -350,13 +346,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>30203161db108050d3333ecf9d96198d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -433,13 +427,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>38203161db108050d3333ecf9d961987</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -516,13 +508,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>b8203161db108050d3333ecf9d96199e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -554,13 +544,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:10:52</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>343f2121db108050d3333ecf9d9619d2</sys_id>
         <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -610,13 +598,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 20:49:15</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>884aada9dbdc4050d3333ecf9d961918</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1036,13 +1022,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:03:19</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8a7d65addbdc4050d3333ecf9d961938</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1073,13 +1057,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-16 22:07:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ce4febd1db648410d3333ecf9d961962</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1185,13 +1167,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-16 22:07:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>924febd1db648410d3333ecf9d961967</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1269,13 +1249,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>andrew.barnes</sys_created_by>
         <sys_created_on>2019-10-11 17:09:08</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3ffa78b7db180850a5da3200ad961935</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1365,13 +1343,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-12 02:05:59</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>bfd5bef7dbd00010a5da3200ad9619b2</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1461,13 +1437,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-16 21:27:50</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c626ab99db248410d3333ecf9d961953</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1560,13 +1534,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-15 02:40:07</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>457ad2b8db200410d3333ecf9d96198c</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1645,13 +1617,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-15 02:40:06</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8d7ad2b8db200410d3333ecf9d961986</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1730,13 +1700,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-16 22:07:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>924febd1db648410d3333ecf9d9619a5</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1815,13 +1783,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-15 02:51:22</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>f50d5e3cdb200410d3333ecf9d9619e3</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -1854,13 +1820,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>30203161db108050d3333ecf9d961959</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2001,13 +1965,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3c203161db108050d3333ecf9d96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2085,13 +2047,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>30203161db108050d3333ecf9d96198d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2168,13 +2128,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>38203161db108050d3333ecf9d961987</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2251,13 +2209,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:14:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>b8203161db108050d3333ecf9d96199e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2289,13 +2245,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:10:52</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>343f2121db108050d3333ecf9d9619d2</sys_id>
         <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2345,13 +2299,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 20:49:15</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>884aada9dbdc4050d3333ecf9d961918</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2771,13 +2723,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-04 21:03:19</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8a7d65addbdc4050d3333ecf9d961938</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2808,13 +2758,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-16 22:07:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ce4febd1db648410d3333ecf9d961962</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2920,13 +2868,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-16 22:07:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>924febd1db648410d3333ecf9d961967</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2954,13 +2900,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>andrew.barnes</sys_created_by>
         <sys_created_on>2019-10-11 17:09:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3ffa78b7db180850a5da3200ad96193c</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Region</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9_region_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -2979,13 +2923,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-12 02:05:59</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>b7d5bef7dbd00010a5da3200ad9619b9</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Type</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9_type_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -3004,13 +2946,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-16 21:27:50</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ca26ab99db248410d3333ecf9d96195c</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Image</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0798e9e5dbdc4050d3333ecf9d9619e9_image_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4044,13 +3984,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-16 22:07:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>164febd1db648410d3333ecf9d9619a9</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Root Password</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9_root_password_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4069,13 +4007,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-15 02:51:22</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>750d5e3cdb200410d3333ecf9d9619e7</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Id</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9_id_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4094,13 +4030,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-15 02:40:07</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>897ad2b8db200410d3333ecf9d96198b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Label</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9_label_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4119,13 +4053,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-15 02:40:07</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c57ad2b8db200410d3333ecf9d96199c</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>IP Address</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0798e9e5dbdc4050d3333ecf9d9619e9_ip_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4141,7 +4073,6 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:48</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>103091e1db3c8810d3333ecf9d96191a</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -4149,7 +4080,6 @@ var json = JSON.parse(inputs.payload);
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4169,13 +4099,13 @@ var json = JSON.parse(inputs.payload);
         <label_cache>[{"name":"{{action.region}}","label":"action➛Region","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":""},{"name":"{{action.image}}","label":"action➛Image","type":"action","ref":""},{"name":"{{step[fcd24be0-bd8d-48f5-b3f5-8cdc93e10665].sn_auth_token}}","label":"Create VM via RESTstep➛➛Credential Value","type":"step","ref":""},{"name":"{{step[2a3ebf52-c12c-4e5e-a3ee-675862c81004].payload}}","label":"step➛Build Payload for VM Creation➛Payload","type":"step","ref":""},{"name":"{{step[fcd24be0-bd8d-48f5-b3f5-8cdc93e10665].response_body}}","label":"Create VM via RESTstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].label}}","label":"Parse Resultsstep➛➛label","type":"step","ref":""},{"name":"{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].ipv4}}","label":"Parse Resultsstep➛➛ipv4","type":"step","ref":""},{"name":"{{step[5f16ce4c-d863-4501-80a9-20d3fa1d85c9].id}}","label":"Parse Resultsstep➛➛id","type":"step","ref":""},{"name":"{{step[c78e4500-f19f-4c2f-874d-5680608ae0a3].password}}","label":"step➛Create Random Password➛password","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Create VM</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <parent_action display_value="Create VM">0798e9e5dbdc4050d3333ecf9d9619e9</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>3e2011e1db3c8810d3333ecf9d96195e</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -4183,7 +4113,6 @@ var json = JSON.parse(inputs.payload);
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4191,6 +4120,7 @@ var json = JSON.parse(inputs.payload);
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e2011e1db3c8810d3333ecf9d96195e"/>
     <sys_variable_value action="delete_multiple" query="document_key=3e2011e1db3c8810d3333ecf9d96195e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -4272,13 +4202,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>4f2011e1db3c8810d3333ecf9d9619c4</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4698,13 +4626,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cb2011e1db3c8810d3333ecf9d9619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4736,13 +4662,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8f2011e1db3c8810d3333ecf9d9619be</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4792,13 +4716,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9f2011e1db3c8810d3333ecf9d9619e9</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -4939,13 +4861,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9b2011e1db3c8810d3333ecf9d9619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5023,13 +4943,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>572011e1db3c8810d3333ecf9d9619fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5106,13 +5024,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>932011e1db3c8810d3333ecf9d9619f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5189,13 +5105,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9b2011e1db3c8810d3333ecf9d9619f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5226,13 +5140,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cb2011e1db3c8810d3333ecf9d9619a5</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5338,13 +5250,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>4f2011e1db3c8810d3333ecf9d9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5422,13 +5332,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>7e2011e1db3c8810d3333ecf9d96195f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5518,13 +5426,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8b2011e1db3c8810d3333ecf9d961990</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5614,13 +5520,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ba2011e1db3c8810d3333ecf9d961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5713,13 +5617,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>132051e1db3c8810d3333ecf9d961913</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5798,13 +5700,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>5f2051e1db3c8810d3333ecf9d96190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5883,13 +5783,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>932051e1db3c8810d3333ecf9d961908</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -5968,13 +5866,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>d32051e1db3c8810d3333ecf9d961918</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -6007,13 +5903,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>4f2011e1db3c8810d3333ecf9d9619c4</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -6433,13 +6327,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cb2011e1db3c8810d3333ecf9d9619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -6471,13 +6363,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8f2011e1db3c8810d3333ecf9d9619be</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -6527,13 +6417,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9f2011e1db3c8810d3333ecf9d9619e9</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -6674,13 +6562,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9b2011e1db3c8810d3333ecf9d9619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -6758,13 +6644,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>572011e1db3c8810d3333ecf9d9619fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -6841,13 +6725,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>932011e1db3c8810d3333ecf9d9619f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -6924,13 +6806,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9b2011e1db3c8810d3333ecf9d9619f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -6961,13 +6841,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cb2011e1db3c8810d3333ecf9d9619a5</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -7073,13 +6951,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>4f2011e1db3c8810d3333ecf9d9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -7107,13 +6983,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>472011e1db3c8810d3333ecf9d9619a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Image</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e_image_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -7132,13 +7006,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c32011e1db3c8810d3333ecf9d96198f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Type</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e_type_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -7157,13 +7029,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>f22011e1db3c8810d3333ecf9d961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Region</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e_region_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -8197,13 +8067,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>172051e1db3c8810d3333ecf9d961917</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Id</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e2011e1db3c8810d3333ecf9d96195e_id_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -8222,13 +8090,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>2b2051e1db3c8810d3333ecf9d96191c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Root Password</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e2011e1db3c8810d3333ecf9d96195e_root_password_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -8247,13 +8113,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>532051e1db3c8810d3333ecf9d961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>IP Address</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e2011e1db3c8810d3333ecf9d96195e_ip_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
@@ -8272,13 +8136,11 @@ var json = JSON.parse(inputs.payload);
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:26:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9f2051e1db3c8810d3333ecf9d96190c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Label</sys_name>
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e2011e1db3c8810d3333ecf9d96195e_label_en</sys_update_name>
         <sys_updated_by>dave.slusher</sys_updated_by>
