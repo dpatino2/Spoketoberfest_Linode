@@ -39,9 +39,9 @@
         <sys_updated_on>2019-10-11 17:15:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
-    <sys_variable_value action="delete_multiple" query="document_key=409c303bdb180850a5da3200ad961940"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=409c303bdb180850a5da3200ad961940^sys_idNOT IN449c303bdb180850a5da3200ad961942"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=409c303bdb180850a5da3200ad961940"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=409c303bdb180850a5da3200ad961940^sys_idNOT IN449c303bdb180850a5da3200ad961942"/>
+    <sys_flow_cat_variable_model action="DELETE">
         <id>409c303bdb180850a5da3200ad961940</id>
         <name>Testing Linode Dynamic</name>
         <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
@@ -89,7 +89,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-15 12:37:01</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
         <sys_id>63fe4283e7ca4639a36c784f3484e561</sys_id>
         <sys_metadata>409c303bdb180850a5da3200ad961940</sys_metadata>
@@ -98,7 +97,6 @@
         <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
         <sys_scope_delete display_value="">3dabd0b1110c48c48804fb78dc0107f1</sys_scope_delete>
         <sys_update_name>sys_hub_flow_409c303bdb180850a5da3200ad961940</sys_update_name>

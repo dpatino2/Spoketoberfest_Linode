@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="region" table="var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CA - ca-central</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>0</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a2011e1db3c8810d3333ecf9d961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>ca-central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DE - eu-central</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>1</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b62011e1db3c8810d3333ecf9d961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>eu-central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IN - ap-west</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>2</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a2011e1db3c8810d3333ecf9d961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>ap-west</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JP - ap-northeast</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>3</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f22011e1db3c8810d3333ecf9d961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>ap-northeast</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SG - ap-south</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>4</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be2011e1db3c8810d3333ecf9d961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>ap-south</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UK - eu-west</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>5</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a2011e1db3c8810d3333ecf9d961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>eu-west</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-central</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>6</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>362011e1db3c8810d3333ecf9d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>us-central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-east</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>7</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe2011e1db3c8810d3333ecf9d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>us-east</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-southeast</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>8</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba2011e1db3c8810d3333ecf9d961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>us-southeast</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-west</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sequence>9</sequence>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>762011e1db3c8810d3333ecf9d961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+            <value>us-west</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>region</element>
+            <name>var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dave.slusher</sys_created_by>
+            <sys_created_on>2019-10-29 15:26:42</sys_created_on>
+            <sys_id>63d6fb6edb631010aa5fc4ab0b96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>region</sys_name>
+            <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_3e2011e1db3c8810d3333ecf9d96195e_region</sys_update_name>
+            <sys_updated_by>dave.slusher</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:26:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
