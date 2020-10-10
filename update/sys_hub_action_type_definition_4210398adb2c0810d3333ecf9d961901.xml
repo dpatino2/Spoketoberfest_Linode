@@ -24,6 +24,7 @@
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-18 20:47:27</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>4210398adb2c0810d3333ecf9d961901</sys_id>
         <sys_mod_count>10</sys_mod_count>
         <sys_name>Run Linux Command</sys_name>
@@ -66,16 +67,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-18 20:56:51</sys_created_on>
         <sys_id>bb32794edb2c0810d3333ecf9d9619b2</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-18 21:15:26</sys_updated_on>
     </sys_hub_step_instance>
@@ -132,16 +128,11 @@
         <outputs/>
         <section/>
         <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-18 20:56:51</sys_created_on>
         <sys_id>f732794edb2c0810d3333ecf9d9619b8</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-21 19:57:11</sys_updated_on>
     </sys_hub_step_instance>
@@ -710,16 +701,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-18 20:56:51</sys_created_on>
         <sys_id>bb32794edb2c0810d3333ecf9d9619b2</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-18 21:15:26</sys_updated_on>
     </sys_hub_step_instance>
@@ -776,16 +762,11 @@
         <outputs/>
         <section/>
         <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-18 20:56:51</sys_created_on>
         <sys_id>f732794edb2c0810d3333ecf9d9619b8</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-21 19:57:11</sys_updated_on>
     </sys_hub_step_instance>
@@ -1053,18 +1034,14 @@
         <action_id display_value="Run Linux Command">4210398adb2c0810d3333ecf9d961901</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d8af4d61db3c8810d3333ecf9d96192a","name":"plan"}}</plan>
         <snapshot>2f9f0d61db3c8810d3333ecf9d961953</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:24:20</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>d8af4d61db3c8810d3333ecf9d96192a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-29 15:24:20</sys_updated_on>
     </sys_hub_action_plan>
@@ -1090,6 +1067,7 @@
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:24:18</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>7b9f0d61db3c8810d3333ecf9d961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -1132,16 +1110,11 @@
         <outputs/>
         <section/>
         <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:24:19</sys_created_on>
         <sys_id>0caf0d61db3c8810d3333ecf9d9619b2</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-29 15:24:19</sys_updated_on>
     </sys_hub_step_instance>
@@ -1300,16 +1273,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:24:19</sys_created_on>
         <sys_id>339f0d61db3c8810d3333ecf9d9619ae</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-29 15:24:19</sys_updated_on>
     </sys_hub_step_instance>
@@ -1776,16 +1744,11 @@
         <outputs/>
         <section/>
         <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:24:19</sys_created_on>
         <sys_id>0caf0d61db3c8810d3333ecf9d9619b2</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-29 15:24:19</sys_updated_on>
     </sys_hub_step_instance>
@@ -1944,16 +1907,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>dave.slusher</sys_created_by>
         <sys_created_on>2019-10-29 15:24:19</sys_created_on>
         <sys_id>339f0d61db3c8810d3333ecf9d9619ae</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>dave.slusher</sys_updated_by>
         <sys_updated_on>2019-10-29 15:24:19</sys_updated_on>
     </sys_hub_step_instance>

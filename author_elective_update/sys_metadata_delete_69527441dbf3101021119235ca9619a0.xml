@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="region" table="var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AU - ap-southeast</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>0</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3793543edbe31010aa5fc4ab0b961917</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ap-southeast</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>1</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b793543edbe31010aa5fc4ab0b961916</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CA - ca-central</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>1</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff93543edbe31010aa5fc4ab0b961917</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ca-central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DE - eu-central</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>2</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb93543edbe31010aa5fc4ab0b961918</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>eu-central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IN - ap-west</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>3</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7793543edbe31010aa5fc4ab0b961919</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ap-west</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JP - ap-northeast</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>4</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3393543edbe31010aa5fc4ab0b96191a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ap-northeast</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SG - ap-south</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>5</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb93543edbe31010aa5fc4ab0b96191a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ap-south</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UK - eu-west</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>6</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b793543edbe31010aa5fc4ab0b96191b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>eu-west</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-central</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>7</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7393543edbe31010aa5fc4ab0b96191c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>us-central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-east</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>8</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f93543edbe31010aa5fc4ab0b96191c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>us-east</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-west</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>9</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f793543edbe31010aa5fc4ab0b96191d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>us-west</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>region</element>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_id>ff93543edbe31010aa5fc4ab0b961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:18:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</application>
+        <file_path/>
+        <instance_id>6c67831adb77df404c1ff70fbf9619db</instance_id>
+        <instance_name>dev69949</instance_name>
+        <name>sys_choice_var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940_region</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="region" table="var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AU - ap-southeast</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>0</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3793543edbe31010aa5fc4ab0b961917</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ap-southeast</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>1</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b793543edbe31010aa5fc4ab0b961916</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CA - ca-central</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>1</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff93543edbe31010aa5fc4ab0b961917</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ca-central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DE - eu-central</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>2</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb93543edbe31010aa5fc4ab0b961918</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>eu-central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IN - ap-west</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>3</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7793543edbe31010aa5fc4ab0b961919</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ap-west</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JP - ap-northeast</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>4</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3393543edbe31010aa5fc4ab0b96191a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ap-northeast</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SG - ap-south</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>5</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb93543edbe31010aa5fc4ab0b96191a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>ap-south</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UK - eu-west</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>6</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b793543edbe31010aa5fc4ab0b96191b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>eu-west</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-central</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>7</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7393543edbe31010aa5fc4ab0b96191c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>us-central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-east</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>8</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f93543edbe31010aa5fc4ab0b96191c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>us-east</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US - us-west</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sequence>9</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f793543edbe31010aa5fc4ab0b96191d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:29:10</sys_updated_on>
+            <value>us-west</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>region</element>
+            <name>var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2020-10-02 21:18:23</sys_created_on>
+            <sys_id>ff93543edbe31010aa5fc4ab0b961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2020-10-02 21:18:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>1663912390</payload_hash>
+        <record_name>.Region</record_name>
+        <reverted_from/>
+        <source>50e1708ddbb3101021119235ca961938</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>dan.patino</sys_created_by>
+        <sys_created_on>2020-10-09 23:18:55</sys_created_on>
+        <sys_id>75527441dbf3101021119235ca9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1750fa900730000001</sys_recorded_at>
+        <sys_updated_by>dan.patino</sys_updated_by>
+        <sys_updated_on>2020-10-09 23:18:55</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>f152744152f310100184961be7d87eaa</update_guid>
+        <update_guid_history>f152744152f310100184961be7d87eaa:0,0e672045cab31010c9f5fc5182b092e6:-1821653328,86672045bbb3101078d1411c178a03e3:368361271,0a6720459bb31010b3086e0cc6c41fe0:1452702708,0e6720452cb310105a238fb6836f90c4:1694448930,8e67204525b3101050c117f1a731f7c1:2054069221,02672045d2b31010079fd643a3d173bf:-129667467,82672045cab31010e474b75ceb3608bc:-1224610178,06672045b3b31010bda7d144cefa88b9:719050477,8667204527b310105e7147cd2b4fbdb6:-868267771,0a6720459cb31010a934d1c38c5431b3:-1922843795,8a6720452bb31010910f9b9250514db0:-576839140,c007808955331010b8ae113df5163e17:0,0807408989331010e2735a7be95ffee3:-729157227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>daveslusher-sn</sys_created_by>
+        <sys_created_on>2020-10-10 00:18:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>69527441dbf3101021119235ca9619a0</sys_id>
+        <sys_metadata>69527441dbf3101021119235ca9619a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>region</sys_name>
+        <sys_package display_value="Linode Spoke" source="x_snc_linode_ah">6b87c129db10cc10af7b596e5e96199d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Linode Spoke">6b87c129db10cc10af7b596e5e96199d</sys_scope>
+        <sys_scope_delete display_value="">3dabd0b1110c48c48804fb78dc0107f1</sys_scope_delete>
+        <sys_update_name/>
+        <sys_update_version display_value="sys_choice_var__m_sys_hub_action_input_af0fc4f2dbe31010aa5fc4ab0b961940_region">75527441dbf3101021119235ca9619aa</sys_update_version>
+        <sys_updated_by>daveslusher-sn</sys_updated_by>
+        <sys_updated_on>2020-10-10 00:18:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
